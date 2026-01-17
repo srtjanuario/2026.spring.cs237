@@ -1,4 +1,4 @@
-# CAS CS 237 - Probability in Computing - Fall 2025
+# CAS CS 237 - Probability in Computing - Spring 2026
 
 ---
 
@@ -24,6 +24,7 @@
         <td class="role">Teaching Assistant</td>
         <td>
             <a href="https://www.linkedin.com/in/steve-choi-75b9a1273/">Steve Choi</a><br>
+            <a href="https://www.linkedin.com/in/daniel-matuzka-3a1185295/">Daniel Matuzka</a><br>
         </td>
     </tr>
 
@@ -32,9 +33,9 @@
         <td>
             
             <!-- <a href="https://www.linkedin.com/in/letitia-caspersen">Letitia Caspersen</a><br> -->
-            <a href="https://www.linkedin.com/in/daniel-matuzka-3a1185295/">Daniel Matuzka</a><br>
-            <!-- Vi Tjiong<br> -->
-            <!-- <a href="https://www.linkedin.com/in/syuhan/">Sarah Yuhan</a><br> -->
+            
+            Vi Tjiong<br>
+            <a href="https://www.linkedin.com/in/syuhan/">Sarah Yuhan</a><br>
             <a href="https://www.linkedin.com/in/changyoon-oh-903b42352">Yoon Oh</a>
         </td>
     </tr>
@@ -62,7 +63,7 @@
     </ul>
   </div>
   <div style="flex: 1; padding-left: 10px;">
-<img src="../../email2025.gif" style="width:95%;">
+<img src="email.gif" style="width:95%;">
   </div>
 </div>
 
