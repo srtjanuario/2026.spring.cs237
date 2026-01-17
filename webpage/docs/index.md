@@ -120,669 +120,393 @@ This schedule is subject, and likely, to change as we progress through the semes
     </thead>
     <tbody>
         <tr>
+            <td> <strong>Lec 1</strong><br> Tuesday<br> Jan 20 </td>
             <td>
-                <strong>Lec 1</strong><br>
-                Tue, Sep 02
-            </td>
-            <td>
-                <div class="agenda-item">
-                    <span class="topic-title">Course information<br> Tips to succeed<br> 
-                    Random experiments<br> 
-                    Sample spaces, events</span> 
-                    <br>
-                    <a href="./slides/cs237L01-annotated.pdf">[Slides with notes]</a>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Read:</span>
-                    <a href="https://www.probabilitycourse.com/chapter1/1_0_0_introduction.php">P 1.1</a>, 
-                    <a href="https://www.probabilitycourse.com/chapter1/1_2_0_review_set_theory.php">P 1.2</a>, 
-                    <a href="https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2014/250d5dfd399a5612d232cc337fc51fa9_MIT18_05S14_Reading1b.pdf">OB 1B</a>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Do:</span>
-                    <a href="https://jupyter.org/try-jupyter/lab/">Jupyter Lab</a>, <a href="lec01.ipynb">Your first Jupyter Notebook</a>, <a href="../collaboration-policy.pdf">Collaboration & Honesty Policy</a>
-                </div>
-            </td>
-            <td>TJ & SR</td>
-        </tr>
-        <tr>
-            <td>
-                <strong>Lec 2</strong><br>
-                Thu, Sep 04
-            </td>
-            <td>
-                <div class="agenda-item">
-                    <span class="topic-title">
-                        Probability function<br> 
-                        Symmetry<br> 
-                        Probability axioms
-                    </span> 
-                    <br>
-                    <a href="./slides/cs237L02-annotated.pdf">[Slides with notes]</a>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Read:</span>
-                    <a href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.17.1">LLM 17.1</a>, 
-                    <a href="https://www.probabilitycourse.com/chapter1/1_3_1_random_experiments.php">P 1.3.1-1.3.3</a>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Do:</span> hw01 out
+                <div class="agenda-item"> <span class="topic-title">Course information<br> Tips to succeed<br> Random
+                        experiments<br> Sample spaces, events</span> <br> <a
+                        href="./slides/cs237L01-annotated.pdf">[Slides with notes]</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://www.probabilitycourse.com/chapter1/1_0_0_introduction.php">P 1.1</a>, <a
+                        href="https://www.probabilitycourse.com/chapter1/1_2_0_review_set_theory.php">P 1.2</a>, <a
+                        href="https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2014/250d5dfd399a5612d232cc337fc51fa9_MIT18_05S14_Reading1b.pdf">OB
+                        1B</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> <a
+                        href="https://jupyter.org/try-jupyter/lab/">Jupyter Lab</a>, <a href="lec01.ipynb">Your first
+                        Jupyter Notebook</a>, <a href="../collaboration-policy.pdf">Collaboration & Honesty Policy</a>
                 </div>
             </td>
             <td>TJ</td>
         </tr>
         <tr>
+            <td> <strong>Lec 2</strong><br> Thurday<br> Jan 22 </td>
             <td>
-                <strong>Lec 3</strong><br>
-                Tue, Sep 09
-            </td>
-            <td>
-                <div class="agenda-item">
-                    <span class="topic-title">
-                        Probability rules<br> 
-                        Computing probabilities
-                    </span>
-                    <br>
-                    <a href="./slides/cs237L03-annotated.pdf">[Slides with notes]</a>
+                <div class="agenda-item"> <span class="topic-title"> Probability function<br> Symmetry<br> Probability
+                        axioms </span> <br> <a href="./slides/cs237L02-annotated.pdf">[Slides with notes]</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.17.1">LLM 17.1</a>, <a
+                        href="https://www.probabilitycourse.com/chapter1/1_3_1_random_experiments.php">P 1.3.1-1.3.3</a>
                 </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Read:</span>
-                    <a href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.17.3">LLM 17.3</a>, 
-                    <a href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.17.5">LLM 17.5</a>, 
-                    <a href="https://www.probabilitycourse.com/chapter2/2_1_0_counting.php">P 2</a>
-                </div>
-            </td>
-            <td>SR</td>
-        </tr>
-        <tr>
-            <td>
-                <strong>Lec 4</strong><br>
-                Thu, Sep 11
-            </td>
-            <td>
-                <div class="agenda-item">
-                    <span class="topic-title">
-                        Tree diagrams<br> 
-                        The Monty Hall problem
-                    </span>
-                    <br>
-                    <a href="./slides/cs237L04-annotated.pdf">[Slides with notes]</a>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Read:</span>
-                    <a href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.17.2">LLM 17.2</a>, 
-                    <a href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.18.1">LLM 18.1.2</a>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Do:</span> hw02 out
-                </div>
-            </td>
-            <td>SR</td>
-        </tr>
-        <tr>
-            <td>
-                <strong>Lec 5</strong><br>
-                Tue, Sep 16
-            </td>
-            <td>
-                <div class="agenda-item">
-                    <span class="topic-title">
-                        Continuous Probability Spaces<br> 
-                        Anomalies with Continuous Probability</span>
-                    <a href="./slides/cs237L05-annotated.pdf">[Slides with notes]</a>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Read:</span>
-                    <a href="https://www.probabilitycourse.com/chapter1/1_3_5_continuous_models.php">P 1.3.5</a>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Watch:</span>
-                    <a href="https://www.probabilitycourse.com/videos/chapter1/video1_4.php">Video</a>, 
-                    <a href="https://www.youtube.com/watch?v=ZA4JkHKZM50">Why “probability of 0” does not mean “impossible”</a>
-                </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> hw01 out </div>
             </td>
             <td>TJ</td>
         </tr>
-
         <tr>
+            <td> <strong>Lec 3</strong><br> Tuesday <br> Jan 27 </td>
             <td>
-                <strong>Lec 6</strong><br>
-                Thu, Sep 18
-            </td>
-            <td>
-                <div class="agenda-item">
-                    <span class="topic-title">Random variables<br> 
- Sum of random variables<br> 
- Definition and examples</span>
-                    <a href="./slides/cs237L06-annotated.pdf">[Slides with notes]</a>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Read:</span>
-                    <a href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.1">LLM 19.1</a>, 
-                    <a href="https://www.probabilitycourse.com/chapter3/3_1_1_random_variables.php">P 3.1.1</a>, 
-                    <a href="https://www.probabilitycourse.com/chapter3/3_1_2_discrete_random_var.php">P 3.1.2</a>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Do:</span> hw03 out
-                </div>
+                <div class="agenda-item"> <span class="topic-title"> Probability rules<br> Computing probabilities
+                    </span> <br> <a href="./slides/cs237L03-annotated.pdf">[Slides with notes]</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.17.3">LLM 17.3</a>, <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.17.5">LLM 17.5</a>, <a
+                        href="https://www.probabilitycourse.com/chapter2/2_1_0_counting.php">P 2</a> </div>
             </td>
             <td>TJ</td>
         </tr>
-
         <tr>
+            <td> <strong>Lec 4</strong><br> Thurday <br> Jan 29 </td>
             <td>
-                <strong>Lec 7</strong><br>
-                Tue, Sep 23
-            </td>
-            <td>
-                <div class="agenda-item">
-                    <span class="topic-title">Distribution Functions: PDF and CDF</span>
-                    <a href="./slides/cs237L07-annotated.pdf">[Slides with notes]</a>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Read:</span>
-                    <a href="https://www.probabilitycourse.com/chapter3/3_1_3_pmf.php">P 3.1.3</a>, 
-                    <a href="https://www.probabilitycourse.com/chapter3/3_2_1_cdf.php">P 3.2.1</a>, 
-                    <a href="https://www.probabilitycourse.com/chapter4/4_1_0_continuous_random_vars_distributions.php">P 4.1.0</a>, 
-                    <a href="https://www.probabilitycourse.com/chapter4/4_1_1_pdf.php">P 4.1.1</a>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Watch:</span> <a href="https://www.probabilitycourse.com/videos/chapter3/video3_1.php">Video</a>
-                </div>
+                <div class="agenda-item"> <span class="topic-title"> Tree diagrams<br> The Monty Hall problem </span>
+                    <br> <a href="./slides/cs237L04-annotated.pdf">[Slides with notes]</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.17.2">LLM 17.2</a>, <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.18.1">LLM 18.1.2</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> hw02 out </div>
             </td>
             <td>TJ</td>
         </tr>
-
         <tr>
+            <td> <strong>Lec 5</strong><br> Tuesday<br> Feb 3 </td>
             <td>
-                <strong>Lec 8</strong><br>
-                Thu, Sep 25
-            </td>
-            <td>
-                <div class="agenda-item">
-                    <span class="topic-title">Properties of PDFs and CDFs<br> 
- Functions of random Variables</span>
-                    <a href="./slides/cs237L08-annotated.pdf">[Slides with notes]</a>
+                <div class="agenda-item"> <span class="topic-title"> Continuous Probability Spaces<br> Anomalies with
+                        Continuous Probability</span> <a href="./slides/cs237L05-annotated.pdf">[Slides with notes]</a>
                 </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Read:</span>
-                    <a href="https://www.probabilitycourse.com/chapter3/3_1_6_solved3_1.php">P 3.1.6</a>, 
-                    <a href="https://www.probabilitycourse.com/chapter4/4_1_4_solved4_1.php">P 4.1.4</a>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Do:</span> hw04 out
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Watch:</span> <a href="https://www.probabilitycourse.com/videos/chapter3/video3_1.php">Video</a>
-                </div>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://www.probabilitycourse.com/chapter1/1_3_5_continuous_models.php">P 1.3.5</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Watch:</span> <a
+                        href="https://www.probabilitycourse.com/videos/chapter1/video1_4.php">Video</a>, <a
+                        href="https://www.youtube.com/watch?v=ZA4JkHKZM50">Why “probability of 0” does not mean
+                        “impossible”</a> </div>
             </td>
             <td>TJ</td>
         </tr>
-
         <tr>
+            <td> <strong>Lec 6</strong><br> Thursday<br> Feb 5 </td>
             <td>
-                <strong>Lec 9</strong><br>
-                Tue, Sep 30
+                <div class="agenda-item"> <span class="topic-title">Random variables<br> Sum of random variables<br>
+                        Definition and examples</span> <a href="./slides/cs237L06-annotated.pdf">[Slides with notes]</a>
+                </div>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.1">LLM 19.1</a>, <a
+                        href="https://www.probabilitycourse.com/chapter3/3_1_1_random_variables.php">P 3.1.1</a>, <a
+                        href="https://www.probabilitycourse.com/chapter3/3_1_2_discrete_random_var.php">P 3.1.2</a>
+                </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> hw03 out </div>
             </td>
-            <td>
-                <div class="agenda-item">
-                    <span class="topic-title">Conditional Probability<br> 
- Pr(⋅ ∣ 𝐸) is a probability function</span>
-                    <a href="./slides/cs237L09-annotated.pdf">[Slides with notes]</a>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Read:</span>
-                    <a href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#chapter.18">LLM 18</a>, 
-                    <a href="https://www.probabilitycourse.com/chapter1/1_4_0_conditional_probability.php">P 1.4.0</a>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Play:</span> <a href="https://www.stem.org.uk/resources/elibrary/resource/440253/card-game-conditional-probability">Game: higher or lower?</a>
-                </div>
-            </td>
-            <td>SR</td>
+            <td>TJ</td>
         </tr>
-
         <tr>
+            <td> <strong>Lec 7</strong><br> Tuesday<br> Feb 10 </td>
             <td>
-                <strong>Lec 10</strong><br>
-                Thu, Oct 02
+                <div class="agenda-item"> <span class="topic-title">Distribution Functions: PDF and CDF</span> <a
+                        href="./slides/cs237L07-annotated.pdf">[Slides with notes]</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://www.probabilitycourse.com/chapter3/3_1_3_pmf.php">P 3.1.3</a>, <a
+                        href="https://www.probabilitycourse.com/chapter3/3_2_1_cdf.php">P 3.2.1</a>, <a
+                        href="https://www.probabilitycourse.com/chapter4/4_1_0_continuous_random_vars_distributions.php">P
+                        4.1.0</a>, <a href="https://www.probabilitycourse.com/chapter4/4_1_1_pdf.php">P 4.1.1</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Watch:</span> <a
+                        href="https://www.probabilitycourse.com/videos/chapter3/video3_1.php">Video</a> </div>
             </td>
-            <td>
-                <div class="agenda-item">
-                    <span class="topic-title">Conditional Probability in Tree Diagrams<br> 
- Product Rule<br> 
- Independent Events</span>
-                    <a href="./slides/cs237L10-annotated.pdf">[Slides with notes]</a>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Read:</span>
-                    <a href="https://www.probabilitycourse.com/chapter1/1_4_2_total_probability.php">P 1.4.2</a>, 
-                    <a href="https://www.probabilitycourse.com/chapter1/1_4_3_bayes_rule.php">P 1.4.3</a>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Do:</span> hw05 out
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Watch:</span>
-                    <a href="https://www.youtube.com/watch?v=HZGCoVF3YvM">The geometry of changing beliefs</a>, 
-                    <a href="https://www.youtube.com/watch?v=R13BD8qKeTg">Veritasium</a>
-                </div>
-            </td>
-            <td>SR</td>
+            <td>TJ</td>
         </tr>
-
         <tr>
+            <td> <strong>Lec 8</strong><br> Thursday<br> Feb 12 </td>
             <td>
-                <strong>Lec 11</strong><br>
-                Tue, Oct 07
+                <div class="agenda-item"> <span class="topic-title">Properties of PDFs and CDFs<br> Functions of random
+                        Variables</span> <a href="./slides/cs237L08-annotated.pdf">[Slides with notes]</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://www.probabilitycourse.com/chapter3/3_1_6_solved3_1.php">P 3.1.6</a>, <a
+                        href="https://www.probabilitycourse.com/chapter4/4_1_4_solved4_1.php">P 4.1.4</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> hw04 out </div>
+                <div class="agenda-item"> <span class="meta-label">Watch:</span> <a
+                        href="https://www.probabilitycourse.com/videos/chapter3/video3_1.php">Video</a> </div>
             </td>
-            <td>
-                <div class="agenda-item">
-                    <span class="topic-title">Law of Total Probability (generalization)<br> 
- Bayes’ Rule - Part I</span>
-                    <a href="./slides/cs237L11-annotated.pdf">[Slides with notes]</a>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Read:</span>
-                    <a href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.18.7">LLM 18.7</a>, 
-                    <a href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.18.8">LLM 18.8</a>
-                </div>
-                <div class="agenda-item">
-                    Last Day to Drop Standard Courses (without a “W” grade)
-                </div>
-            </td>
-            <td>SR</td>
+            <td>TJ</td>
         </tr>
-
-        <tr>
-            <td>
-                <strong>Lec 12</strong><br>
-                Thu, Oct 09
-            </td>
-            <td>
-                <div class="agenda-item">
-                    <span class="topic-title">Bayes’ Rule - Part II<br> 
- Independence for Multiple Events</span>
-                    <a href="./slides/cs237L12-annotated.pdf">[Slides with notes]</a>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Read:</span>
-                    <a href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.18.9">LLM 18.9</a>, 
-                    <a href="https://www.probabilitycourse.com/chapter1/1_4_1_independence.php">P 1.4.1</a>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Do:</span> hw06 out
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Watch:</span> <a href="https://www.youtube.com/watch?v=rIjIcWeY1X0">Video</a>
-                </div>
-            </td>
-            <td>SR</td>
-        </tr>
-
         <tr class="special-event">
+            <td> Tuesday<br> Feb 17 </td>
             <td>
-                Tue, Oct 14
+                <div class="agenda-item"> <span class="topic-title">Substitute Monday Schedule of Classes</span> </div>
+                <div class="agenda-item"> Check the <a
+                        href="https://calendar.google.com/calendar/u/0/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America/New_York&mode=WEEK&src=Y182Y2I2M2Q3M2Y0NzQxMTU1Yzc4ZTI0MWU3OGI3MWIzZDc2NDA3ZTNhMGZlNjdlODlkOTIzMjVlMjNkMjFlMWY3QGdyb3VwLmcaWVuZGFyLmdvb2dsZS5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB&color=%230B8043">Google
+                        Calendar</a> for the updated office hour schedule </div>
             </td>
-            <td>
-                <div class="agenda-item">
-                    <span class="topic-title">Substitute Monday Schedule of Classes</span>
-                </div>
-                <div class="agenda-item">
-                    Check the <a href="https://calendar.google.com/calendar/u/0/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America/New_York&mode=WEEK&src=Y182Y2I2M2Q3M2Y0NzQxMTU1Yzc4ZTI0MWU3OGI3MWIzZDc2NDA3ZTNhMGZlNjdlODlkOTIzMjVlMjNkMjFlMWY3QGdyb3VwLmcaWVuZGFyLmdvb2dsZS5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB&color=%230B8043">Google Calendar</a> for the updated office hour schedule
-                </div>
-            </td>
-            <td></td>
+            <td>-</td>
         </tr>
-
         <tr>
+            <td> <strong>Lec 9</strong><br> Thursday<br> Feb 19 </td>
             <td>
-                <strong>Lec 13</strong><br>
-                Thu, Oct 16
+                <div class="agenda-item"> <span class="topic-title">Conditional Probability<br> Pr(⋅ ∣ 𝐸) is a
+                        probability function</span> <a href="./slides/cs237L09-annotated.pdf">[Slides with notes]</a>
+                </div>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#chapter.18">LLM 18</a>, <a
+                        href="https://www.probabilitycourse.com/chapter1/1_4_0_conditional_probability.php">P 1.4.0</a>
+                </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> hw05 out </div>
+                <div class="agenda-item"> <span class="meta-label">Play:</span> <a
+                        href="https://www.stem.org.uk/resources/elibrary/resource/440253/card-game-conditional-probability">Game:
+                        higher or lower?</a> </div>
             </td>
-            <td>
-                <div class="agenda-item">
-                    <span class="topic-title">Pairwise and Mutual Independence<br> 
- Independence for Random Variables</span>
-                    <a href="./slides/cs237L13-annotated.pdf">[Slides with notes]</a>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Read:</span>
-                    <a href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.4">LLM 19.4</a>, 
-                    <a href="https://www.probabilitycourse.com/chapter3/3_2_2_expectation.php">P 3.2.2</a>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Do:</span> Midterm practice problems out
-                </div>
-            </td>
-            <td>SR</td>
+            <td>NK</td>
         </tr>
-
         <tr>
+            <td> <strong>Lec 10</strong><br> Tuesday<br> Feb 24 </td>
             <td>
-                <strong>Lec 14</strong><br>
-                Tue, Oct 21
+                <div class="agenda-item"> <span class="topic-title">Conditional Probability in Tree Diagrams<br> Product
+                        Rule<br> Independent Events</span> <a href="./slides/cs237L10-annotated.pdf">[Slides with
+                        notes]</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://www.probabilitycourse.com/chapter1/1_4_2_total_probability.php">P 1.4.2</a>, <a
+                        href="https://www.probabilitycourse.com/chapter1/1_4_3_bayes_rule.php">P 1.4.3</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Watch:</span> <a
+                        href="https://www.youtube.com/watch?v=HZGCoVF3YvM">The geometry of changing beliefs</a>, <a
+                        href="https://www.youtube.com/watch?v=R13BD8qKeTg">Veritasium</a> </div>
             </td>
-            <td>
-                <div class="agenda-item">
-                    <span class="topic-title"><a href="https://en.wikipedia.org/wiki/People_v._Collins">People v. Collins</a><br> 
- More Independence</span>
-                    <a href="./slides/cs237L14-annotated.pdf">[Slides with notes]</a>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Read:</span>
-                    <a href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.5">LLM 19.5</a>, 
-                    <a href="https://www.probabilitycourse.com/chapter6/6_1_2_sums_random_variables.php">P 6.1.2</a>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Do:</span> Midterm practice solutions out
-                </div>
-            </td>
-            <td>SR</td>
+            <td>TJ</td>
         </tr>
-
+        <tr>
+            <td> <strong>Lec 11</strong><br> Thursday<br> Feb 26 </td>
+            <td>
+                <div class="agenda-item"> <span class="topic-title">Law of Total Probability (generalization)<br> Bayes’
+                        Rule - Part I</span> <a href="./slides/cs237L11-annotated.pdf">[Slides with notes]</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.18.7">LLM 18.7</a>, <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.18.8">LLM 18.8</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> hw06 out </div>
+                <div class="agenda-item"> Last Day to Drop Standard Courses (without a “W” grade) </div>
+            </td>
+            <td>TJ</td>
+        </tr>
+        <tr>
+            <td> <strong>Lec 12</strong><br> Tuesday<br> Mar 3 </td>
+            <td>
+                <div class="agenda-item"> <span class="topic-title">Bayes’ Rule - Part II<br> Independence for Multiple
+                        Events</span> <a href="./slides/cs237L12-annotated.pdf">[Slides with notes]</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.18.9">LLM 18.9</a>, <a
+                        href="https://www.probabilitycourse.com/chapter1/1_4_1_independence.php">P 1.4.1</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Watch:</span> <a
+                        href="https://www.youtube.com/watch?v=rIjIcWeY1X0">Video</a> </div>
+            </td>
+            <td>TJ</td>
+        </tr>
         <tr class="special-event">
-            <td>
-                Thu, Oct 23
-            </td>
-            <td>
-                <div class="agenda-item">
-                    <span class="topic-title">Midterm, in class, during lecture time</span>
-                    Covers all topics up to Lecture 13
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Do:</span> hw07 out
+            <td style="background-color: yellow;"> Thursday<br> Mar 5 </td>
+            <td style="background-color: yellow;text-align: center;">
+                <div class="agenda-item"> 
+                <strong>Midterm, in class, during lecture time <br>
+                Covers all topics up to Lecture 12 </strong>
                 </div>
             </td>
-            <td></td>
+            <td style="background-color: yellow;"></td>
         </tr>
-
-        <tr>
-            <td>
-                <strong>Lec 15</strong><br>
-                Tue, Oct 28
-            </td>
-            <td>
-                <div class="agenda-item">
-                    <span class="topic-title">Expected value of a random variable</span>
-                    <a href="./slides/cs237L15-annotated.pdf">[Slides with notes]</a>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Read:</span>
-                    <a href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.4">LLM 19.4.1</a>, 
-                    <a href="https://www.probabilitycourse.com/chapter3/3_2_3_functions_random_var.php">P 3.2.3</a>, 
-                    <a href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.4">LLM 19.4.6</a>
-                </div>
-            </td>
-            <td>TJ</td>
-        </tr>
-
-        <tr>
-            <td>
-                <strong>Lec 16</strong><br>
-                Thu, Oct 30
-            </td>
-            <td>
-                <div class="agenda-item">
-                    <span class="topic-title">Infinite sums<br> 
- Linearity of expectation</span>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Read:</span>
-                    <a href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.3">LLM 20.3</a>, 
-                    <a href="https://www.probabilitycourse.com/chapter3/3_2_4_variance.php">P 3.2.4</a>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Do:</span> hw08 out
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Watch:</span> <a href="https://www.probabilitycourse.com/videos/chapter3/video3_9.php">Video</a>
-                </div>
-            </td>
-            <td>TJ</td>
-        </tr>
-
-        <tr>
-            <td>
-                <strong>Lec 17</strong><br>
-                Tue, Nov 04
-            </td>
-            <td>
-                <div class="agenda-item">
-                    <span class="topic-title">Law of the unconscious statistician<br> 
- Conditional expectation<br> 
- Linearity of conditional expectation</span>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Read:</span>
-                    <a href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.3">LLM 19.3.1</a>, 
-                    <a href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.3">LLM 19.3.2</a>, 
-                    <a href="https://www.probabilitycourse.com/chapter3/3_1_5_special_discrete_distr.php">P 3.1.5</a>
-                </div>
-            </td>
-            <td>TJ</td>
-        </tr>
-
-        <tr>
-            <td>
-                <strong>Lec 18</strong><br>
-                Thu, Nov 06
-            </td>
-            <td>
-                <div class="agenda-item">
-                    <span class="topic-title">Law of total expectation<br> 
- Variance<br> 
- Standard deviation<br> 
- Variance properties</span>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Read:</span>
-                    <a href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.5">LLM 19.5.4</a>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Do:</span> hw09 out
-                </div>
-            </td>
-            <td>TJ</td>
-        </tr>
-
-        <tr>
-            <td>
-                <strong>Lec 19</strong><br>
-                Tue, Nov 11
-            </td>
-            <td>
-                <div class="agenda-item">
-                    <span class="topic-title">Discrete distributions: Bernoulli, Uniform, Binomial</span>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Read:</span>
-                    <a href="https://en.wikipedia.org/wiki/Reservoir_sampling">Wikipedia</a>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Watch:</span> <a href="https://www.youtube.com/watch?v=BstloCx8KDk">Stand-up Maths</a>
-                </div>
-            </td>
-            <td>SR</td>
-        </tr>
-
-        <tr>
-            <td>
-                <strong>Lec 20</strong><br>
-                Thu, Nov 13
-            </td>
-            <td>
-                <div class="agenda-item">
-                    <span class="topic-title">Discrete distributions: Geometric and its properties</span>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Read:</span>
-                    <a href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.1">LLM 20.1</a>, 
-                    <a href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.2">LLM 20.2</a>, 
-                    <a href="https://www.probabilitycourse.com/chapter6/6_2_2_markov_chebyshev_inequalities.php">P 6.2.2</a>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Do:</span> hw10 out
-                </div>
-            </td>
-            <td>SR</td>
-        </tr>
-
-        <tr>
-            <td>
-                <strong>Lec 21</strong><br>
-                Tue, Nov 18
-            </td>
-            <td>
-                <div class="agenda-item">
-                    <span class="topic-title">Coupon collector's problem<br> 
- Reservoir sampling<br> 
- Negative Binomial</span>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Read:</span>
-                    <a href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.1">LLM 20.1.1</a>, 
-                    <a href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.2">LLM 20.2.1</a>
-                </div>
-            </td>
-            <td>SR</td>
-        </tr>
-
-        <tr>
-            <td>
-                <strong>Lec 22</strong><br>
-                Thu, Nov 20
-            </td>
-            <td>
-                <div class="agenda-item">
-                    <span class="topic-title">Markov inequality<br> 
- Chebyshev inequality</span>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Read:</span>
-                    <a href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.2">LLM 20.2.2</a>, 
-                    <a href="https://www.probabilitycourse.com/chapter4/4_2_3_normal.php">P 4.2.3</a>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Do:</span> hw11 out
-                </div>
-            </td>
-            <td>TJ</td>
-        </tr>
-
-        <tr>
-            <td>
-                <strong>Lec 23</strong><br>
-                Tue, Nov 25
-            </td>
-            <td>
-                <div class="agenda-item">
-                    <span class="topic-title">Applications of Markov and Chebyshev's inequalities<br> 
- Continuous Uniform Distribution</span>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Read:</span>
-                    <a href="https://www.probabilitycourse.com/chapter4/4_2_2_exponential.php">P 4.2.2</a>, 
-                    <a href="https://www.probabilitycourse.com/chapter11/11_1_2_basic_concepts_of_the_poisson_process.php">P 11.1.2</a>
-                </div>
-            </td>
-            <td>TJ</td>
-        </tr>
-
         <tr class="special-event">
-            <td>
-                Thu, Nov 27
-            </td>
-            <td>
-                <strong>Thanksgiving break</strong>
-            </td>
+            <td> Tuesday<br> Mar 10 </td>
+            <td style="text-align: center;"> 🌸 <strong>Spring break</strong>🌺 </td>
             <td></td>
         </tr>
-
+        <tr class="special-event">
+            <td> Thursday<br> Mar 12 </td>
+            <td style="text-align: center;"> 🌼 <strong>Spring break</strong> 🌷 </td>
+            <td></td>
+        </tr>
         <tr>
+            <td> <strong>Lec 13</strong><br> Tuesday<br> Mar 17 </td>
             <td>
-                <strong>Lec 24</strong><br>
-                Tue, Dec 02
-            </td>
-            <td>
-                <div class="agenda-item">
-                    <span class="topic-title">Normal Distribution</span>
+                <div class="agenda-item"> <span class="topic-title">Pairwise and Mutual Independence<br> Independence
+                        for Random Variables</span> <a href="./slides/cs237L13-annotated.pdf">[Slides with notes]</a>
                 </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Read:</span>
-                    <a href="https://www.probabilitycourse.com/chapter11/11_1_2_basic_concepts_of_the_poisson_process.php">P 11.1.2</a>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.4">LLM 19.4</a>, <a
+                        href="https://www.probabilitycourse.com/chapter3/3_2_2_expectation.php">P 3.2.2</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> Midterm practice problems out </div>
+            </td>
+            <td>NK</td>
+        </tr>
+        <tr>
+            <td> <strong>Lec 14</strong><br> Thursday<br> Mar 19 </td>
+            <td>
+                <div class="agenda-item"> <span class="topic-title"><a
+                            href="https://en.wikipedia.org/wiki/People_v._Collins">People v. Collins</a><br> More
+                        Independence</span> <a href="./slides/cs237L14-annotated.pdf">[Slides with notes]</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.5">LLM 19.5</a>, <a
+                        href="https://www.probabilitycourse.com/chapter6/6_1_2_sums_random_variables.php">P 6.1.2</a>
+                </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> hw07 out </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> Midterm practice solutions out </div>
+            </td>
+            <td>NK</td>
+        </tr>
+        <tr>
+            <td> <strong>Lec 15</strong><br> Tuesday<br> Mar 24 </td>
+            <td>
+                <div class="agenda-item"> <span class="topic-title">Expected value of a random variable</span> <a
+                        href="./slides/cs237L15-annotated.pdf">[Slides with notes]</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.4">LLM 19.4.1</a>, <a
+                        href="https://www.probabilitycourse.com/chapter3/3_2_3_functions_random_var.php">P 3.2.3</a>, <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.4">LLM 19.4.6</a> </div>
+            </td>
+            <td>NK</td>
+        </tr>
+        <tr>
+            <td> <strong>Lec 16</strong><br> Thursday<br> Mar 26 </td>
+            <td>
+                <div class="agenda-item"> <span class="topic-title">Infinite sums<br> Linearity of expectation</span>
+                </div>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.3">LLM 20.3</a>, <a
+                        href="https://www.probabilitycourse.com/chapter3/3_2_4_variance.php">P 3.2.4</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> hw08 out </div>
+                <div class="agenda-item"> <span class="meta-label">Watch:</span> <a
+                        href="https://www.probabilitycourse.com/videos/chapter3/video3_9.php">Video</a> </div>
+            </td>
+            <td>NK</td>
+        </tr>
+        <tr>
+            <td> <strong>Lec 17</strong><br> Tuesday<br> Mar 31 </td>
+            <td>
+                <div class="agenda-item"> <span class="topic-title">Law of the unconscious statistician<br> Conditional
+                        expectation<br> Linearity of conditional expectation</span> </div>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.3">LLM 19.3.1</a>, <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.3">LLM 19.3.2</a>, <a
+                        href="https://www.probabilitycourse.com/chapter3/3_1_5_special_discrete_distr.php">P 3.1.5</a>
                 </div>
             </td>
             <td>TJ</td>
         </tr>
-
         <tr>
+            <td> <strong>Lec 18</strong><br> Thursday<br> Apr 2 </td>
             <td>
-                <strong>Lec 25</strong><br>
-                Thu, Dec 04
+                <div class="agenda-item"> <span class="topic-title">Law of total expectation<br> Variance<br> Standard
+                        deviation<br> Variance properties</span> </div>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.5">LLM 19.5.4</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> hw09 out </div>
             </td>
-            <td>
-                <div class="agenda-item">
-                    <span class="topic-title">Exponential Distribution</span>
-                    <a href="https://my-bu.bluera.com/">Course evaluation</a>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Read:</span> CLRS 8.4
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Do:</span> hw12 out<br> 
- Final Practice Problems out
-                </div>
-            </td>
-            <td>SR</td>
+            <td>TJ</td>
         </tr>
-
         <tr>
+            <td> <strong>Lec 19</strong><br> Tuesday<br> Apr 7 </td>
             <td>
-                <strong>Lec 26</strong><br>
-                Tue, Dec 09
+                <div class="agenda-item"> <span class="topic-title">Discrete distributions: Bernoulli, Uniform,
+                        Binomial</span> </div>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://en.wikipedia.org/wiki/Reservoir_sampling">Wikipedia</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Watch:</span> <a
+                        href="https://www.youtube.com/watch?v=BstloCx8KDk">Stand-up Maths</a> </div>
             </td>
-            <td>
-                <div class="agenda-item">
-                    <span class="topic-title">Poisson Distribution</span>
-                    <a href="https://my-bu.bluera.com/">Course evaluation</a>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Read:</span> <a href="https://en.wikipedia.org/wiki/Reservoir_sampling">Wiki</a>
-                </div>
-                <div class="agenda-item">
-                    <span class="meta-label">Do:</span> Final Practice Solutions out
-                </div>
-            </td>
-            <td>SR</td>
+            <td>NK</td>
         </tr>
-
         <tr>
+            <td> <strong>Lec 20</strong><br> Thursday<br> Apr 9 </td>
             <td>
-                Thu, Dec 11
+                <div class="agenda-item"> <span class="topic-title">Discrete distributions: Geometric and its
+                        properties</span> </div>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.1">LLM 20.1</a>, <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.2">LLM 20.2</a>, <a
+                        href="https://www.probabilitycourse.com/chapter6/6_2_2_markov_chebyshev_inequalities.php">P
+                        6.2.2</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> hw10 out </div>
             </td>
-            <td>
-                Study period begins
-            </td>
-            <td></td>
+            <td>NK</td>
         </tr>
-
+        <tr>
+            <td> <strong>Lec 21</strong><br> Tuesday<br> Apr 14 </td>
+            <td>
+                <div class="agenda-item"> <span class="topic-title">Coupon collector's problem<br> Reservoir
+                        sampling<br> Negative Binomial</span> </div>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.1">LLM 20.1.1</a>, <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.2">LLM 20.2.1</a> </div>
+            </td>
+            <td>NK</td>
+        </tr>
+        <tr>
+            <td> <strong>Lec 22</strong><br> Thursday<br> Apr 16 </td>
+            <td>
+                <div class="agenda-item"> <span class="topic-title">Markov inequality<br> Chebyshev inequality</span>
+                </div>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.2">LLM 20.2.2</a>, <a
+                        href="https://www.probabilitycourse.com/chapter4/4_2_3_normal.php">P 4.2.3</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> hw11 out </div>
+            </td>
+            <td>NK</td>
+        </tr>
+        <tr>
+            <td> <strong>Lec 23</strong><br> Tuesday<br> Apr 21 </td>
+            <td>
+                <div class="agenda-item"> <span class="topic-title">Applications of Markov and Chebyshev's
+                        inequalities<br> Continuous Uniform Distribution</span> </div>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://www.probabilitycourse.com/chapter4/4_2_2_exponential.php">P 4.2.2</a>, <a
+                        href="https://www.probabilitycourse.com/chapter11/11_1_2_basic_concepts_of_the_poisson_process.php">P
+                        11.1.2</a> </div>
+            </td>
+            <td>NK</td>
+        </tr>
+        <tr>
+            <td> <strong>Lec 24</strong><br> Thursday<br> Apr 23 </td>
+            <td>
+                <div class="agenda-item"> <span class="topic-title">Normal Distribution</span> </div>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://www.probabilitycourse.com/chapter11/11_1_2_basic_concepts_of_the_poisson_process.php">P
+                        11.1.2</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> hw12 out<br> Final Practice Problems out
+            </td>
+            <td>NK</td>
+        </tr>
+        <tr>
+            <td> <strong>Lec 25</strong><br> Tuesday<br> Apr 28 </td>
+            <td>
+                <div class="agenda-item"> <span class="topic-title">Exponential Distribution</span> <a
+                        href="https://my-bu.bluera.com/">Course evaluation</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> CLRS 8.4 </div>
+                
+                </div>
+            </td>
+            <td>NK</td>
+        </tr>
+        <tr>
+            <td> <strong>Lec 26</strong><br> Thursday<br> Apr 30 </td>
+            <td>
+                <div class="agenda-item"> <span class="topic-title">Poisson Distribution</span> <a
+                        href="https://my-bu.bluera.com/">Course evaluation</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://en.wikipedia.org/wiki/Reservoir_sampling">Wiki</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> Final Practice Solutions out </div>
+            </td>
+            <td>NK</td>
+        </tr>
         <tr class="special-event">
-            <td>
-                <strong>Final Exam</strong><br>
-                Dec 18
-            </td>
-            <td>
-                <div class="agenda-item">
-                    <span class="topic-title">Final Exam</span>
-                    Time: 3:00 PM – 5:00 PM <br>
-                    Location: HAR 105
-                </div>
-                <div class="agenda-item">
-                    Cumulative and covers all topics
-                </div>
-            </td>
-            <td></td>
+            <td> Friday<br> May 1 </td>
+            <td> Study Period begins </td>
+            <td>--</td>
+        </tr>
+        <tr class="special-event">
+            <td> Monday<br> May 4 </td>
+            <td> Final Exam Week Begins </td>
+            <td>--</td>
+        </tr>
+        <tr class="special-event">
+            <td> Friday<br> May 8 </td>
+            <td> Final Exam Week Ends </td>
+            <td>--</td>
         </tr>
     </tbody>
 </table>
