@@ -123,8 +123,9 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td> <strong>Lec 1</strong><br> Tuesday<br> Jan 20 </td>
             <td>
                 <div class="agenda-item"> <span class="topic-title">Course information<br> Tips to succeed<br> Random
-                        experiments<br> Sample spaces, events</span> <br> <a
-                        href="./slides/cs237L01-annotated.pdf">[Slides with notes]</a> </div>
+                        experiments<br> Sample spaces, events</span> <br> 
+                        <!-- <ahref="./slides/cs237L01-annotated.pdf">[Slides with notes]</a>  -->
+                </div>
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://www.probabilitycourse.com/chapter1/1_0_0_introduction.php">P 1.1</a>, <a
                         href="https://www.probabilitycourse.com/chapter1/1_2_0_review_set_theory.php">P 1.2</a>, <a
@@ -141,7 +142,9 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td> <strong>Lec 2</strong><br> Thurday<br> Jan 22 </td>
             <td>
                 <div class="agenda-item"> <span class="topic-title"> Probability function<br> Symmetry<br> Probability
-                        axioms </span> <br> <a href="./slides/cs237L02-annotated.pdf">[Slides with notes]</a> </div>
+                        axioms </span> <br> 
+                        <!-- <a href="./slides/cs237L02-annotated.pdf">[Slides with notes]</a>  -->
+                        </div>
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.17.1">LLM 17.1</a>, <a
                         href="https://www.probabilitycourse.com/chapter1/1_3_1_random_experiments.php">P 1.3.1-1.3.3</a>
@@ -154,7 +157,9 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td> <strong>Lec 3</strong><br> Tuesday <br> Jan 27 </td>
             <td>
                 <div class="agenda-item"> <span class="topic-title"> Probability rules<br> Computing probabilities
-                    </span> <br> <a href="./slides/cs237L03-annotated.pdf">[Slides with notes]</a> </div>
+                    </span> <br> 
+                    <!-- <a href="./slides/cs237L03-annotated.pdf">[Slides with notes]</a>  -->
+                    </div>
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.17.3">LLM 17.3</a>, <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.17.5">LLM 17.5</a>, <a
@@ -166,7 +171,9 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td> <strong>Lec 4</strong><br> Thurday <br> Jan 29 </td>
             <td>
                 <div class="agenda-item"> <span class="topic-title"> Tree diagrams<br> The Monty Hall problem </span>
-                    <br> <a href="./slides/cs237L04-annotated.pdf">[Slides with notes]</a> </div>
+                    <br> 
+                    <!-- <a href="./slides/cs237L04-annotated.pdf">[Slides with notes]</a>  -->
+                    </div>
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.17.2">LLM 17.2</a>, <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.18.1">LLM 18.1.2</a> </div>
@@ -178,7 +185,8 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td> <strong>Lec 5</strong><br> Tuesday<br> Feb 3 </td>
             <td>
                 <div class="agenda-item"> <span class="topic-title"> Continuous Probability Spaces<br> Anomalies with
-                        Continuous Probability</span> <a href="./slides/cs237L05-annotated.pdf">[Slides with notes]</a>
+                        Continuous Probability</span> 
+                        <!-- <a href="./slides/cs237L05-annotated.pdf">[Slides with notes]</a> -->
                 </div>
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://www.probabilitycourse.com/chapter1/1_3_5_continuous_models.php">P 1.3.5</a> </div>
@@ -193,7 +201,8 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td> <strong>Lec 6</strong><br> Thursday<br> Feb 5 </td>
             <td>
                 <div class="agenda-item"> <span class="topic-title">Random variables<br> Sum of random variables<br>
-                        Definition and examples</span> <a href="./slides/cs237L06-annotated.pdf">[Slides with notes]</a>
+                        Definition and examples</span> 
+                        <!-- <a href="./slides/cs237L06-annotated.pdf">[Slides with notes]</a> -->
                 </div>
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.1">LLM 19.1</a>, <a
@@ -207,8 +216,9 @@ This schedule is subject, and likely, to change as we progress through the semes
         <tr>
             <td> <strong>Lec 7</strong><br> Tuesday<br> Feb 10 </td>
             <td>
-                <div class="agenda-item"> <span class="topic-title">Distribution Functions: PDF and CDF</span> <a
-                        href="./slides/cs237L07-annotated.pdf">[Slides with notes]</a> </div>
+                <div class="agenda-item"> <span class="topic-title">Distribution Functions: PDF and CDF</span> 
+                <!-- <a href="./slides/cs237L07-annotated.pdf">[Slides with notes]</a>  -->
+                </div>
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://www.probabilitycourse.com/chapter3/3_1_3_pmf.php">P 3.1.3</a>, <a
                         href="https://www.probabilitycourse.com/chapter3/3_2_1_cdf.php">P 3.2.1</a>, <a
@@ -223,7 +233,9 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td> <strong>Lec 8</strong><br> Thursday<br> Feb 12 </td>
             <td>
                 <div class="agenda-item"> <span class="topic-title">Properties of PDFs and CDFs<br> Functions of random
-                        Variables</span> <a href="./slides/cs237L08-annotated.pdf">[Slides with notes]</a> </div>
+                        Variables</span> <br>
+                        <!-- <a href="./slides/cs237L08-annotated.pdf">[Slides with notes]</a>  -->
+                        </div>
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://www.probabilitycourse.com/chapter3/3_1_6_solved3_1.php">P 3.1.6</a>, <a
                         href="https://www.probabilitycourse.com/chapter4/4_1_4_solved4_1.php">P 4.1.4</a> </div>
@@ -533,9 +545,9 @@ Students with exam accommodations, regardless or their final exam conflict, will
 ---
 ## Participation and Attendance
 
-*   Participation in lecture will be tracked with [iClicker](https://www.iclicker.com). We will start using this the second week of classes.
-*   Participation in discussion labs will be tracked with iClicker as well.
-*   You will get full participation points if you answer at least 85% of the possible iClicker questions. You do not need to answer correctly, although we encourage you to use these questions as exam preparation.
+*   Participation in lecture will be tracked with [Top Hat](https://tophat.com). We will start using this the second week of classes.
+*   Participation in discussion labs will be tracked with [Top Hat](https://tophat.com) as well.
+*   You will get full participation points if you answer at least 85% of the possible [Top Hat](https://tophat.com) questions. You do not need to answer correctly, although we encourage you to use these questions as exam preparation.
 *   You will get full attendance points if you attend at least 85% of the discussion labs.
 *   If you end up with x% points, where x < 85, you will get x/85 of the points.
 *   Most of the material covered in lectures and labs can be found in our textbooks. Read them!
@@ -560,6 +572,7 @@ Students with exam accommodations, regardless or their final exam conflict, will
     *   Explicitly searching for problem answers online or from individuals not enrolled in the current semester's class is strictly forbidden.
     *   If you receive help on Piazza or during office hours from instructors for specific problems, you must list them as collaborators.
 *   **Partial Submissions:** Submitting partial work is acceptable if you cannot fully complete an assignment; avoid missing the deadline entirely.
+* **The instructors retain the right to oral explanation of any student work submitted for a grade**. If the student cannot explain the work they have submitted, the instructor will assign a grade of 0 on the entire assignment in question.
 
 ---
 ## Exams
@@ -586,9 +599,9 @@ The course grade will be calculated as follows:
 *   10% quizzes
 *   20% weekly homework assignments
 *   25% in-class midterm exam
-*   35% in-class final exam. **Don't make any travel plans before the final date is released.**
+*   35% in-class final exam. **Don't make any travel plans before knowing all dates of your final exams.**
 *   **Incompletes for this class will be granted based on** [CAS Policy](https://www.bu.edu/cas/faculty-staff/instructors-guide/incomplete-grades/).
-*   **Note:** <u>Optional homework problems do not count towards your course grade</u> (except when you are right on the border), but we will look at how you did on them if you ask for a recommendation letter.
+*   **Note:** <u>Optional homework problems do not count towards your course grade</u>, but we will look at how you did on them if you ask for a recommendation letter.
 
 ---
 ## Regrade Policy
@@ -614,3 +627,24 @@ The course grade will be calculated as follows:
 *   A [latex tutorial](http://www.tug.org/twg/mactex/tutorials/ltxprimer-1.0.pdf).
 
 **Homework template files**: [tex](../sample-hw-solution.tex), [pdf](../sample-hw-solution.pdf), [jpg](../example-hw-image.jpg).
+
+---
+## FAQ
+
+Many common questions have already been answered. Before emailing, posting on Piazza, or asking in class, please try the following:
+
+1. **Start with the syllabus.** It answers an impressive number of questions about deadlines, policies, office hours, and grading.
+
+2. **If you’re still unsure, feel free to consult an LLM.** Copy-pasting the syllabus and asking “What is the policy on X?” is often faster than waiting for a reply—and helps keep Piazza focused on course content.
+
+3. **The course is taken as designed.** Assignments and deadlines apply uniformly to everyone, except where formal accommodations are documented.
+
+4. **Missed a class?** Something important was probably covered. Please check the posted materials and ask a classmate before reaching out.
+
+5. **Dates and deadlines** have been posted since Day 1 (in multiple places). Keeping track of them is part of the course.
+
+6. **Office hours exist!** They’re a great place for questions about concepts, feedback, or anything not already answered in the syllabus.
+
+7. **Extensions are not granted.** Instead, the course includes "grace periods" for flexibility—please use them wisely.
+
+Reading the syllabus (or asking an LLM to summarize it for you) will save everyone time—including you.
