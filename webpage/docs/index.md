@@ -69,7 +69,7 @@
 
 
 
-*   Check our [Google Calendar](https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&mode=WEEK&src=Y182Y2I2M2Q3M2Y0NzQxMTU1Yzc4ZTI0MWU3OGI3MWIzZDc2NDA3ZTNhMGZlNjdlODlkOTIzMjVlMjNkMjFlMWY3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%237986cb&color=%230b8043) for hour Office hours.
+*   Check our [Google Calendar](https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&mode=WEEK&src=Y182Y2I2M2Q3M2Y0NzQxMTU1Yzc4ZTI0MWU3OGI3MWIzZDc2NDA3ZTNhMGZlNjdlODlkOTIzMjVlMjNkMjFlMWY3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%237986cb&color=%230b8043) for our Office hours.
 
 <center>
 <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&mode=WEEK&src=Y182Y2I2M2Q3M2Y0NzQxMTU1Yzc4ZTI0MWU3OGI3MWIzZDc2NDA3ZTNhMGZlNjdlODlkOTIzMjVlMjNkMjFlMWY3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%237986cb&color=%230b8043" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
