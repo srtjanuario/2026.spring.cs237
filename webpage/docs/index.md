@@ -93,7 +93,7 @@ Introduction to basic probabilistic concepts and methods used in computer scienc
 ## Course structure
 
 *   Attendance in lectures and discussion is mandatory
-*   The two lecture sections of the course will be treated as one class.
+*   The two lecture sections of the course will be treated as one class. However, you must attend the section you are signed up for (please discuss with us if there is an issue).
 *   The content of the two lectures is identical, and assignments will be shared.
 
 ---
@@ -504,6 +504,16 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td>--</td>
         </tr>
         <tr class="special-event">
+            <td> Tuesday<br> May 5 </td>
+            <td> Final Exam for A2 Section, 12:00 - 2:00pm in KCB 106</td>
+            <td>--</td>
+        </tr>
+        <tr class="special-event">
+            <td> Tuesday<br> May 7 </td>
+            <td> Final Exam for A1 Section, 9:00 - 11:00am in KCB 106</td>
+            <td>--</td>
+        </tr>
+        <tr class="special-event">
             <td> Friday<br> May 8 </td>
             <td> Final Exam Week Ends </td>
             <td>--</td>
@@ -511,22 +521,22 @@ This schedule is subject, and likely, to change as we progress through the semes
     </tbody>
 </table>
 
-We have prearranged the following date and time for students with final exam conflict:
+<!--We have prearranged the following date and time for students with final exam conflict:
 
 * Alternative Final exam date: December 16th
 * Time: 3:00 PM – 5:00 PM
 * Location: STHB19
 
 Students with exam accommodations, regardless or their final exam conflict, will take the final exam at same day and initial time of the other students at CDS 801.
-
+-->
 
 ---
 ## Participation and Attendance
 
-*   Participation in lecture will be tracked with Top Hat questions.
-*   Participation in discussion labs will be tracked with Top Hat location-based attendance.
-*   You will get the full participation points if you answer at least 85% of the possible Top Hat questions.
-*   You will get the full attendance points if you attend at least 85% of the discussion labs.
+*   Participation in lecture will be tracked with [iClicker](https://www.iclicker.com). We will start using this the second week of classes.
+*   Participation in discussion labs will be tracked with iClicker as well.
+*   You will get full participation points if you answer at least 85% of the possible iClicker questions. You do not need to answer correctly, although we encourage you to use these questions as exam preparation.
+*   You will get full attendance points if you attend at least 85% of the discussion labs.
 *   If you end up with x% points, where x < 85, you will get x/85 of the points.
 *   Most of the material covered in lectures and labs can be found in our textbooks. Read them!
 *   While our textbook will be very helpful, it is an imperfect substitute for in-class learning, which is the fastest (and easiest) way to learn the material.
@@ -535,15 +545,16 @@ Students with exam accommodations, regardless or their final exam conflict, will
 ---
 ## Homework Policy
 
-*   **Submission:** Weekly assignments are posted on Thursdays and due by **Wednesdays at 9:00 PM ET** via [Gradescope](https://www.gradescope.com/). A 3-hour grace period is allowed; submissions after this period will not be accepted. Missing submissions will be treated as late.
+*   **Submission:** Weekly assignments are posted on Fridays and due by **Thursday at 9:00 PM ET** via [Gradescope](https://www.gradescope.com/). A 3-hour grace period is allowed; submissions after this period will not be accepted.
 *   **Content:** Provide step-by-step explanations for your answers. Submissions with only answers will receive minimal credit.
 *   **Formatting:** Submit solutions as **one single PDF file** with high-quality images. Illegible submissions will receive a 0. We recommend using [Dropbox](https://www.dropbox.com/referrals/AABXucmmhueiq5iaPPSTVfnTpOeddYmso_0?src=global9) for scanning.
 *   **Gradescope Page Selection:** Correctly select the pages for each problem on Gradescope. Failure to do so will result in a 10% penalty. If you don't have a solution, note "No solution provided."
-*   **Late Policy:** You may use up to 3 grace periods without penalty. After that, each late submission incurs a 1% penalty. The lowest homework grade will be dropped after penalties are applied.
+*   **Late Policy:** You may use up to 3 grace periods without penalty. After that, each late submission incurs a 1% penalty.
+*   **Dropped Homework:** The lowest homework grade will be dropped after penalties are applied. (Note that the intent of this is to allow you leeway on one *emergency* situation. Do not simply use your free dropped homework because you feel like it.)
 *   **Academic Integrity and Collaboration:**
     *   The [Collaboration & Honesty Policy](../collaboration-policy.pdf) outlines the rules of collaboration and penalties for cheating. All students are required to read, sign, and submit this document to Gradescope.
     *   Submitting identically worded answers, including pseudocode, is a **serious offense** and will be reported to the Dean's Office ([BU Academic Conduct Code](https://www.bu.edu/academics/policies/academic-conduct-code/#VI)).
-    *   Using ChatGPT or similar AI for homework solutions violates the [Collaboration & Honesty Policy](../collaboration-policy.pdf).
+    *   Using ChatGPT or similar AI for homework solutions violates the [Collaboration & Honesty Policy](../collaboration-policy.pdf). 
     *   You are not required to cite material from the course textbook, lectures, discussion notes, or information provided by course staff.
     *   For any other external information, **a proper citation is required**. Failure to cite constitutes plagiarism.
     *   Explicitly searching for problem answers online or from individuals not enrolled in the current semester's class is strictly forbidden.
@@ -559,14 +570,22 @@ Students with exam accommodations, regardless or their final exam conflict, will
 *   No collaboration whatsoever is permitted on exams, **any violation will be reported to the College.**
 
 ---
+## Quizzes
+
+*   There will be four quizzes based on flashcards that will be posted weekly on Piazza. The quiz dates are posted on the schedule. The quizzes are all cumulative and will be simple short answers based on the flashcards. Quizzes will be held at the beginning of class and will last 10-15 minutes.
+*   Your lowest quiz score will be dropped. Similar to the homework, the intent of this is to give you leeway in an emergency situation.
+*   We use [Anki](https://apps.ankiweb.net/) for flashcards. You can download a free app at that link. We will also post the flashcards in plaintext if you prefer to print them out or just look at them on a website.
+
+---
 ## Grading
 
-The course grade will break down as follows:
+The course grade will be calculated as follows:
 
 *   5% class participation
 *   5% lab attendance
-*   25% weekly homework assignments
-*   30% in-class midterm exam
+*   10% quizzes
+*   20% weekly homework assignments
+*   25% in-class midterm exam
 *   35% in-class final exam. **Don't make any travel plans before the final date is released.**
 *   **Incompletes for this class will be granted based on** [CAS Policy](https://www.bu.edu/cas/faculty-staff/instructors-guide/incomplete-grades/).
 *   **Note:** <u>Optional homework problems do not count towards your course grade</u> (except when you are right on the border), but we will look at how you did on them if you ask for a recommendation letter.
@@ -577,6 +596,11 @@ The course grade will break down as follows:
 *   Regrade requests can be submitted up to one week (7 days) after grades for a given assignment have been posted (except the final exam).
 *   You must request a regrade via Gradescope, _**NOT** through email_.
 *   When we regrade a problem, your score may go up or down.
+
+---
+## AI Policy
+
+* As stated above, you may not use large language models like ChatGPT or Gemini to provide homework solutions. However, you may use them to help clarify concepts, discuss homework problems *after you have submitted and the deadline has passed*, or similar. Be wary, though, of hallucinations. It is good to double check any information you receive from LLMs with a reliable source.
 
 ---
 ## Miscellaneous
