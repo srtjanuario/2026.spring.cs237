@@ -122,10 +122,10 @@ This schedule is subject, and likely, to change as we progress through the semes
         <tr>
             <td> <strong>Lec 1</strong><br> Tuesday<br> Jan 20 </td>
             <td>
-                <div class="agenda-item"> <span class="topic-title">Course information<br> Tips to succeed<br> Random
-                        experiments<br> Sample spaces, events</span> <br> 
-                        <!-- <ahref="./slides/cs237L01-annotated.pdf">[Slides with notes]</a>  -->
-                </div>
+                Course information<br> 
+                Tips to succeed<br> Random experiments<br> 
+                Sample spaces, events<br> 
+                <!-- <ahref="./slides/cs237L01-annotated.pdf">[Slides with notes]</a><br> -->
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://www.probabilitycourse.com/chapter1/1_0_0_introduction.php">P 1.1</a>, <a
                         href="https://www.probabilitycourse.com/chapter1/1_2_0_review_set_theory.php">P 1.2</a>, <a
@@ -133,7 +133,7 @@ This schedule is subject, and likely, to change as we progress through the semes
                         1B</a> </div>
                 <div class="agenda-item"> <span class="meta-label">Do:</span> <a
                         href="https://jupyter.org/try-jupyter/lab/">Jupyter Lab</a>, <a href="lec01.ipynb">Your first
-                        Jupyter Notebook</a>, <a href="../collaboration-policy.pdf">Collaboration & Honesty Policy</a>
+                        Jupyter Notebook</a>, <a href="collaboration-policy.pdf">Collaboration & Honesty Policy</a>
                 </div>
             </td>
             <td>TJ</td>
@@ -141,10 +141,10 @@ This schedule is subject, and likely, to change as we progress through the semes
         <tr>
             <td> <strong>Lec 2</strong><br> Thurday<br> Jan 22 </td>
             <td>
-                <div class="agenda-item"> <span class="topic-title"> Probability function<br> Symmetry<br> Probability
-                        axioms </span> <br> 
-                        <!-- <a href="./slides/cs237L02-annotated.pdf">[Slides with notes]</a>  -->
-                        </div>
+                Probability function<br> 
+                Symmetry<br> 
+                Probability axioms <br> 
+                <!-- <a href="./slides/cs237L02-annotated.pdf">[Slides with notes]</a> -->
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.17.1">LLM 17.1</a>, <a
                         href="https://www.probabilitycourse.com/chapter1/1_3_1_random_experiments.php">P 1.3.1-1.3.3</a>
@@ -156,10 +156,9 @@ This schedule is subject, and likely, to change as we progress through the semes
         <tr>
             <td> <strong>Lec 3</strong><br> Tuesday <br> Jan 27 </td>
             <td>
-                <div class="agenda-item"> <span class="topic-title"> Probability rules<br> Computing probabilities
-                    </span> <br> 
-                    <!-- <a href="./slides/cs237L03-annotated.pdf">[Slides with notes]</a>  -->
-                    </div>
+                Probability rules<br> 
+                Computing probabilities <br> 
+                <!-- <a href="./slides/cs237L03-annotated.pdf">[Slides with notes]</a><br> -->
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.17.3">LLM 17.3</a>, <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.17.5">LLM 17.5</a>, <a
@@ -170,10 +169,9 @@ This schedule is subject, and likely, to change as we progress through the semes
         <tr>
             <td> <strong>Lec 4</strong><br> Thurday <br> Jan 29 </td>
             <td>
-                <div class="agenda-item"> <span class="topic-title"> Tree diagrams<br> The Monty Hall problem </span>
-                    <br> 
-                    <!-- <a href="./slides/cs237L04-annotated.pdf">[Slides with notes]</a>  -->
-                    </div>
+                Tree diagrams<br> 
+                The Monty Hall problem<br> 
+                <!-- <a href="./slides/cs237L04-annotated.pdf">[Slides with notes]</a><br> -->
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.17.2">LLM 17.2</a>, <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.18.1">LLM 18.1.2</a> </div>
@@ -184,10 +182,9 @@ This schedule is subject, and likely, to change as we progress through the semes
         <tr>
             <td> <strong>Lec 5</strong><br> Tuesday<br> Feb 3 </td>
             <td>
-                <div class="agenda-item"> <span class="topic-title"> Continuous Probability Spaces<br> Anomalies with
-                        Continuous Probability</span> 
-                        <!-- <a href="./slides/cs237L05-annotated.pdf">[Slides with notes]</a> -->
-                </div>
+                Continuous Probability Spaces<br> 
+                Anomalies with Continuous Probability <br>
+                <!-- <a href="./slides/cs237L05-annotated.pdf">[Slides with notes]</a><br> -->
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://www.probabilitycourse.com/chapter1/1_3_5_continuous_models.php">P 1.3.5</a> </div>
                 <div class="agenda-item"> <span class="meta-label">Watch:</span> <a
@@ -200,10 +197,10 @@ This schedule is subject, and likely, to change as we progress through the semes
         <tr>
             <td> <strong>Lec 6</strong><br> Thursday<br> Feb 5 </td>
             <td>
-                <div class="agenda-item"> <span class="topic-title">Random variables<br> Sum of random variables<br>
-                        Definition and examples</span> 
-                        <!-- <a href="./slides/cs237L06-annotated.pdf">[Slides with notes]</a> -->
-                </div>
+                Random variables<br> 
+                Sum of random variables<br>
+                Definition and examples <br>
+                <!-- <a href="./slides/cs237L06-annotated.pdf">[Slides with notes]</a><br> -->
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.1">LLM 19.1</a>, <a
                         href="https://www.probabilitycourse.com/chapter3/3_1_1_random_variables.php">P 3.1.1</a>, <a
@@ -216,9 +213,8 @@ This schedule is subject, and likely, to change as we progress through the semes
         <tr>
             <td> <strong>Lec 7</strong><br> Tuesday<br> Feb 10 </td>
             <td>
-                <div class="agenda-item"> <span class="topic-title">Distribution Functions: PDF and CDF</span> 
-                <!-- <a href="./slides/cs237L07-annotated.pdf">[Slides with notes]</a>  -->
-                </div>
+                Distribution Functions: PDF and CDF <br>
+                <!-- <a href="./slides/cs237L07-annotated.pdf">[Slides with notes]</a><br>  -->
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://www.probabilitycourse.com/chapter3/3_1_3_pmf.php">P 3.1.3</a>, <a
                         href="https://www.probabilitycourse.com/chapter3/3_2_1_cdf.php">P 3.2.1</a>, <a
@@ -232,10 +228,9 @@ This schedule is subject, and likely, to change as we progress through the semes
         <tr>
             <td> <strong>Lec 8</strong><br> Thursday<br> Feb 12 </td>
             <td>
-                <div class="agenda-item"> <span class="topic-title">Properties of PDFs and CDFs<br> Functions of random
-                        Variables</span> <br>
-                        <!-- <a href="./slides/cs237L08-annotated.pdf">[Slides with notes]</a>  -->
-                        </div>
+                Properties of PDFs and CDFs<br> 
+                Functions of random Variables<br>
+                <!-- <a href="./slides/cs237L08-annotated.pdf">[Slides with notes]</a><br>  -->
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://www.probabilitycourse.com/chapter3/3_1_6_solved3_1.php">P 3.1.6</a>, <a
                         href="https://www.probabilitycourse.com/chapter4/4_1_4_solved4_1.php">P 4.1.4</a> </div>
@@ -258,8 +253,12 @@ This schedule is subject, and likely, to change as we progress through the semes
         <tr>
             <td> <strong>Lec 9</strong><br> Thursday<br> Feb 19 </td>
             <td>
-                <div class="agenda-item"> <span class="topic-title">Conditional Probability<br> Pr(⋅ ∣ 𝐸) is a
-                        probability function</span> <a href="./slides/cs237L09-annotated.pdf">[Slides with notes]</a>
+                <div class="agenda-item"> <span class="topic-title">
+                Conditional Probability<br> 
+                Pr(⋅ ∣ 𝐸) is a probability function <br>
+                Conditional Probability in Tree Diagrams<br> 
+                </span> 
+                        <!-- <a href="./slides/cs237L09-annotated.pdf">[Slides with notes]</a> -->
                 </div>
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#chapter.18">LLM 18</a>, <a
@@ -275,9 +274,10 @@ This schedule is subject, and likely, to change as we progress through the semes
         <tr>
             <td> <strong>Lec 10</strong><br> Tuesday<br> Feb 24 </td>
             <td>
-                <div class="agenda-item"> <span class="topic-title">Conditional Probability in Tree Diagrams<br> Product
-                        Rule<br> Independent Events</span> <a href="./slides/cs237L10-annotated.pdf">[Slides with
-                        notes]</a> </div>
+                Product Rule<br> 
+                Law of Total Probability (generalization)<br> 
+                Bayes’ Rule <br>
+                <!-- <a href="./slides/cs237L10-annotated.pdf">[Slides with notes]</a>  -->
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://www.probabilitycourse.com/chapter1/1_4_2_total_probability.php">P 1.4.2</a>, <a
                         href="https://www.probabilitycourse.com/chapter1/1_4_3_bayes_rule.php">P 1.4.3</a> </div>
@@ -290,8 +290,9 @@ This schedule is subject, and likely, to change as we progress through the semes
         <tr>
             <td> <strong>Lec 11</strong><br> Thursday<br> Feb 26 </td>
             <td>
-                <div class="agenda-item"> <span class="topic-title">Law of Total Probability (generalization)<br> Bayes’
-                        Rule - Part I</span> <a href="./slides/cs237L11-annotated.pdf">[Slides with notes]</a> </div>
+                Independent Events<br> 
+                Independence for Multiple Events <br>
+                <!-- <a href="./slides/cs237L11-annotated.pdf">[Slides with notes]</a><br>  -->
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.18.7">LLM 18.7</a>, <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.18.8">LLM 18.8</a> </div>
@@ -302,9 +303,11 @@ This schedule is subject, and likely, to change as we progress through the semes
         </tr>
         <tr>
             <td> <strong>Lec 12</strong><br> Tuesday<br> Mar 3 </td>
-            <td>
-                <div class="agenda-item"> <span class="topic-title">Bayes’ Rule - Part II<br> Independence for Multiple
-                        Events</span> <a href="./slides/cs237L12-annotated.pdf">[Slides with notes]</a> </div>
+            <td> 
+                Independence for Random Variables<br>
+                Pairwise and Mutual Independence<br>
+                <a href="https://en.wikipedia.org/wiki/People_v._Collins">People v. Collins</a><br> 
+                <!-- <a href="./slides/cs237L12-annotated.pdf">[Slides with notes]</a> <br> -->
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.18.9">LLM 18.9</a>, <a
                         href="https://www.probabilitycourse.com/chapter1/1_4_1_independence.php">P 1.4.1</a> </div>
@@ -336,9 +339,10 @@ This schedule is subject, and likely, to change as we progress through the semes
         <tr>
             <td> <strong>Lec 13</strong><br> Tuesday<br> Mar 17 </td>
             <td>
-                <div class="agenda-item"> <span class="topic-title">Pairwise and Mutual Independence<br> Independence
-                        for Random Variables</span> <a href="./slides/cs237L13-annotated.pdf">[Slides with notes]</a>
-                </div>
+            More Independence <br> 
+            Expected value of a random variable<br>
+            Infinite sums<br> 
+                <!-- <a href="./slides/cs237L13-annotated.pdf">[Slides with notes]</a> -->
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.4">LLM 19.4</a>, <a
                         href="https://www.probabilitycourse.com/chapter3/3_2_2_expectation.php">P 3.2.2</a> </div>
@@ -349,9 +353,7 @@ This schedule is subject, and likely, to change as we progress through the semes
         <tr>
             <td> <strong>Lec 14</strong><br> Thursday<br> Mar 19 </td>
             <td>
-                <div class="agenda-item"> <span class="topic-title"><a
-                            href="https://en.wikipedia.org/wiki/People_v._Collins">People v. Collins</a><br> More
-                        Independence</span> <a href="./slides/cs237L14-annotated.pdf">[Slides with notes]</a> </div>
+                <!-- <a href="./slides/cs237L14-annotated.pdf">[Slides with notes]</a> <br> -->
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.5">LLM 19.5</a>, <a
                         href="https://www.probabilitycourse.com/chapter6/6_1_2_sums_random_variables.php">P 6.1.2</a>
@@ -364,8 +366,7 @@ This schedule is subject, and likely, to change as we progress through the semes
         <tr>
             <td> <strong>Lec 15</strong><br> Tuesday<br> Mar 24 </td>
             <td>
-                <div class="agenda-item"> <span class="topic-title">Expected value of a random variable</span> <a
-                        href="./slides/cs237L15-annotated.pdf">[Slides with notes]</a> </div>
+                <!-- <a href="./slides/cs237L15-annotated.pdf">[Slides with notes]</a> <br> -->
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.4">LLM 19.4.1</a>, <a
                         href="https://www.probabilitycourse.com/chapter3/3_2_3_functions_random_var.php">P 3.2.3</a>, <a
@@ -376,7 +377,8 @@ This schedule is subject, and likely, to change as we progress through the semes
         <tr>
             <td> <strong>Lec 16</strong><br> Thursday<br> Mar 26 </td>
             <td>
-                <div class="agenda-item"> <span class="topic-title">Infinite sums<br> Linearity of expectation</span>
+                <div class="agenda-item"> <span class="topic-title">
+                Linearity of expectation</span>
                 </div>
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.3">LLM 20.3</a>, <a
@@ -564,9 +566,9 @@ Students with exam accommodations, regardless or their final exam conflict, will
 *   **Late Policy:** You may use up to 3 grace periods without penalty. After that, each late submission incurs a 1% penalty.
 *   **Dropped Homework:** The lowest homework grade will be dropped after penalties are applied. (Note that the intent of this is to allow you leeway on one *emergency* situation. Do not simply use your free dropped homework because you feel like it.)
 *   **Academic Integrity and Collaboration:**
-    *   The [Collaboration & Honesty Policy](../collaboration-policy.pdf) outlines the rules of collaboration and penalties for cheating. All students are required to read, sign, and submit this document to Gradescope.
+    *   The [Collaboration & Honesty Policy](collaboration-policy.pdf) outlines the rules of collaboration and penalties for cheating. All students are required to read, sign, and submit this document to Gradescope.
     *   Submitting identically worded answers, including pseudocode, is a **serious offense** and will be reported to the Dean's Office ([BU Academic Conduct Code](https://www.bu.edu/academics/policies/academic-conduct-code/#VI)).
-    *   Using ChatGPT or similar AI for homework solutions violates the [Collaboration & Honesty Policy](../collaboration-policy.pdf). 
+    *   Using ChatGPT or similar AI for homework solutions violates the [Collaboration & Honesty Policy](collaboration-policy.pdf). 
     *   You are not required to cite material from the course textbook, lectures, discussion notes, or information provided by course staff.
     *   For any other external information, **a proper citation is required**. Failure to cite constitutes plagiarism.
     *   Explicitly searching for problem answers online or from individuals not enrolled in the current semester's class is strictly forbidden.
@@ -626,25 +628,23 @@ The course grade will be calculated as follows:
 *   Not so short [intro to latex](https://tobi.oetiker.ch/lshort/lshort.pdf);
 *   A [latex tutorial](http://www.tug.org/twg/mactex/tutorials/ltxprimer-1.0.pdf).
 
-**Homework template files**: [tex](../sample-hw-solution.tex), [pdf](../sample-hw-solution.pdf), [jpg](../example-hw-image.jpg).
+**Homework template files**: [tex](sample-hw-solution.tex), [pdf](sample-hw-solution.pdf), [jpg](example-hw-image.jpg).
 
 ---
 ## FAQ
 
 Many common questions have already been answered. Before emailing, posting on Piazza, or asking in class, please try the following:
 
-1. **Start with the syllabus.** It answers an impressive number of questions about deadlines, policies, office hours, and grading.
+1. **Start with the syllabus.** It answers an impressive number of questions about deadlines, policies, office hours, and grading. **If you’re still unsure, feel free to consult an LLM.** Copy-pasting the syllabus and asking “What is the policy on X?” is often faster than waiting for a reply—and helps keep Piazza focused on course content.
 
-2. **If you’re still unsure, feel free to consult an LLM.** Copy-pasting the syllabus and asking “What is the policy on X?” is often faster than waiting for a reply—and helps keep Piazza focused on course content.
+2. **The course is taken as designed.** Assignments and deadlines apply uniformly to everyone, except where formal accommodations are documented. See #1.
 
-3. **The course is taken as designed.** Assignments and deadlines apply uniformly to everyone, except where formal accommodations are documented.
+3. **Missed a class?** Something important was probably covered. Please check the posted materials and ask a classmate before reaching out.  See #1.
 
-4. **Missed a class?** Something important was probably covered. Please check the posted materials and ask a classmate before reaching out.
+4. **Dates and deadlines** have been posted since Day 1 (in multiple places). Keeping track of them is part of the course.  See #1.
 
-5. **Dates and deadlines** have been posted since Day 1 (in multiple places). Keeping track of them is part of the course.
+5. **Office hours exist!** They’re a great place for questions about concepts, feedback, or anything not already answered in the syllabus.  See #1.
 
-6. **Office hours exist!** They’re a great place for questions about concepts, feedback, or anything not already answered in the syllabus.
+6. **Extensions are not granted.** Instead, the course includes "grace periods" for flexibility—please use them wisely.  See #1.
 
-7. **Extensions are not granted.** Instead, the course includes "grace periods" for flexibility—please use them wisely.
-
-Reading the syllabus (or asking an LLM to summarize it for you) will save everyone time—including you.
+Reading the syllabus (or asking an LLM to summarize it for you) will save everyone time—including you.  See #1.
