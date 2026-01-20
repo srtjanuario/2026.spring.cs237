@@ -180,7 +180,7 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td>TJ</td>
         </tr>
         <tr>
-            <td> <strong>Lec 5</strong><br> Tuesday<br> Feb 3 </td>
+            <td> <strong>Lec 5: <u>Quiz 1</u></strong><br> Tuesday<br> Feb 3</td>
             <td>
                 Continuous Probability Spaces<br> 
                 Anomalies with Continuous Probability <br>
@@ -302,7 +302,7 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td>TJ</td>
         </tr>
         <tr>
-            <td> <strong>Lec 12</strong><br> Tuesday<br> Mar 3 </td>
+            <td> <strong>Lec 12: <u>Quiz 2</u></strong><br> Tuesday<br> Mar 3 </td>
             <td> 
                 Independence for Random Variables<br>
                 Pairwise and Mutual Independence<br>
@@ -396,7 +396,7 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td>NK</td>
         </tr>
         <tr>
-            <td> <strong>Lec 17</strong><br> Tuesday<br> Mar 31 </td>
+            <td> <strong>Lec 17: <u>Quiz 3</u></strong><br> Tuesday<br> Mar 31 </td>
             <td>
             Discrete distributions: <br>
             - Bernoulli, <br>
@@ -494,7 +494,7 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td>NK</td>
         </tr>
         <tr>
-            <td> <strong>Lec 25</strong><br> Tuesday<br> Apr 28 </td>
+            <td> <strong>Lec 25: <u>Quiz 4</u></strong><br> Tuesday<br> Apr 28 </td>
             <td>
                 Central Limit Theorem <br>
                 Law of Large Numbers <br>
