@@ -586,10 +586,10 @@ Students with exam accommodations, regardless or their final exam conflict, will
 * **The instructors retain the right to oral explanation of any student work submitted for a grade**. If the student cannot explain the work they have submitted, the instructor will assign a grade of 0 on the entire assignment in question.
 
 ---
-## Exams
+## [Exams](duck.png)
 
 *   Both exams will consist of problem-solving and short questions about the material.
-*   Each exam duration and their locations are given in the course schedule.
+*   Each exam duration and its location are given in the course schedule.
 *   The content of the final is cumulative.
 *   No collaboration whatsoever is permitted on exams, **any violation will be reported to the College.**
 
@@ -650,7 +650,7 @@ Many common questions have already been answered. Before emailing, posting on Pi
 
 3. **Missed a class?** Something important was probably covered. Please check the posted materials and ask a classmate before reaching out.  See #1.
 
-4. **Dates and deadlines** have been posted since Day 1 (in multiple places). Keeping track of them is part of the course.  See #1.
+4. **Dates and deadlines** have been posted since Day 1. Keeping track of them is part of the course.  See #1.
 
 5. **Office hours exist!** They’re a great place for questions about concepts, feedback, or anything not already answered in the syllabus.  See #1.
 
