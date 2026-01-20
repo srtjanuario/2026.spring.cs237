@@ -69,7 +69,7 @@
 
 
 
-*   Check our [Google Calendar](https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&mode=WEEK&src=Y182Y2I2M2Q3M2Y0NzQxMTU1Yzc4ZTI0MWU3OGI3MWIzZDc2NDA3ZTNhMGZlNjdlODlkOTIzMjVlMjNkMjFlMWY3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%237986cb&color=%230b8043) for hour Office hours.
+*   Check our [Google Calendar](https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&mode=WEEK&src=Y182Y2I2M2Q3M2Y0NzQxMTU1Yzc4ZTI0MWU3OGI3MWIzZDc2NDA3ZTNhMGZlNjdlODlkOTIzMjVlMjNkMjFlMWY3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%237986cb&color=%230b8043) for our Office hours.
 
 <center>
 <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&mode=WEEK&src=Y182Y2I2M2Q3M2Y0NzQxMTU1Yzc4ZTI0MWU3OGI3MWIzZDc2NDA3ZTNhMGZlNjdlODlkOTIzMjVlMjNkMjFlMWY3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%237986cb&color=%230b8043" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
@@ -180,8 +180,8 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td>TJ</td>
         </tr>
         <tr>
-            <td> <strong>Lec 5: <u>Quiz 1</u></strong><br> Tuesday<br> Feb 3</td>
-            <td>
+            <td style="background-color: LightYellow"> <strong>Lec 5: <u>Quiz 1</u></strong><br> Tuesday<br> Feb 3</td>
+            <td style="background-color: LightYellow">
                 Continuous Probability Spaces<br> 
                 Anomalies with Continuous Probability <br>
                 <!-- <a href="./slides/cs237L05-annotated.pdf">[Slides with notes]</a><br> -->
@@ -192,7 +192,7 @@ This schedule is subject, and likely, to change as we progress through the semes
                         href="https://www.youtube.com/watch?v=ZA4JkHKZM50">Why “probability of 0” does not mean
                         “impossible”</a> </div>
             </td>
-            <td>TJ</td>
+            <td style="background-color: LightYellow">TJ</td>
         </tr>
         <tr>
             <td> <strong>Lec 6</strong><br> Thursday<br> Feb 5 </td>
@@ -302,8 +302,8 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td>TJ</td>
         </tr>
         <tr>
-            <td> <strong>Lec 12: <u>Quiz 2</u></strong><br> Tuesday<br> Mar 3 </td>
-            <td> 
+            <td style="background-color: LightYellow"> <strong>Lec 12: <u>Quiz 2</u></strong><br> Tuesday<br> Mar 3 </td>
+            <td style="background-color: LightYellow"> 
                 Independence for Random Variables<br>
                 Pairwise and Mutual Independence<br>
                 <a href="https://en.wikipedia.org/wiki/People_v._Collins">People v. Collins</a><br> 
@@ -314,7 +314,7 @@ This schedule is subject, and likely, to change as we progress through the semes
                 <div class="agenda-item"> <span class="meta-label">Watch:</span> <a
                         href="https://www.youtube.com/watch?v=rIjIcWeY1X0">Video</a> </div>
             </td>
-            <td>TJ</td>
+            <td style="background-color: LightYellow">TJ</td>
         </tr>
         <tr class="special-event">
             <td style="background-color: LightYellow;"> Thursday<br> Mar 5 </td>
@@ -396,8 +396,8 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td>NK</td>
         </tr>
         <tr>
-            <td> <strong>Lec 17: <u>Quiz 3</u></strong><br> Tuesday<br> Mar 31 </td>
-            <td>
+            <td style="background-color: LightYellow"> <strong>Lec 17: <u>Quiz 3</u></strong><br> Tuesday<br> Mar 31 </td>
+            <td style="background-color: LightYellow">
             Discrete distributions: <br>
             - Bernoulli, <br>
             - Uniform, <br>
@@ -408,7 +408,7 @@ This schedule is subject, and likely, to change as we progress through the semes
                         href="https://www.probabilitycourse.com/chapter3/3_1_5_special_discrete_distr.php">P 3.1.5</a>
                 </div>
             </td>
-            <td>TJ</td>
+            <td style="background-color: LightYellow">TJ</td>
         </tr>
         <tr>
             <td> <strong>Lec 18</strong><br> Thursday<br> Apr 2 </td>
@@ -494,15 +494,15 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td>NK</td>
         </tr>
         <tr>
-            <td> <strong>Lec 25: <u>Quiz 4</u></strong><br> Tuesday<br> Apr 28 </td>
-            <td>
+            <td style="background-color: LightYellow"> <strong>Lec 25: <u>Quiz 4</u></strong><br> Tuesday<br> Apr 28 </td>
+            <td style="background-color: LightYellow">
                 Central Limit Theorem <br>
                 Law of Large Numbers <br>
                 <a href="https://my-bu.bluera.com/">Course evaluation</a> 
                 <div class="agenda-item"> <span class="meta-label">Read:</span> CLRS 8.4 </div>
                 </div>
             </td>
-            <td>NK</td>
+            <td style="background-color: LightYellow">NK</td>
         </tr>
         <tr>
             <td> <strong>Lec 26</strong><br> Thursday<br> Apr 30 </td>
@@ -556,7 +556,7 @@ Students with exam accommodations, regardless or their final exam conflict, will
 ---
 ## Participation and Attendance
 
-*   Participation in lecture will be tracked with [Top Hat](https://tophat.com). We will start using this the second week of classes.
+*   Participation in lecture will be tracked with [Top Hat](https://tophat.com). We will start using this in the second week of classes.
 *   Participation in discussion labs will be tracked with [Top Hat](https://tophat.com) as well.
 *   You will get full participation points if you answer at least 85% of the possible [Top Hat](https://tophat.com) questions. You do not need to answer correctly, although we encourage you to use these questions as exam preparation.
 *   You will get full attendance points if you attend at least 85% of the discussion labs.
