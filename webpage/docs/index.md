@@ -592,6 +592,7 @@ Students with exam accommodations, regardless or their final exam conflict, will
 *   Each exam duration and its location are given in the course schedule.
 *   The content of the final is cumulative.
 *   No collaboration whatsoever is permitted on exams, **any violation will be reported to the College.**
+*   Makeup exams will only be given in documented cases of serious illness.
 
 ---
 ## Quizzes
