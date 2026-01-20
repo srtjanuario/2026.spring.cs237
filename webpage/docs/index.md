@@ -396,7 +396,7 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td>NK</td>
         </tr>
         <tr>
-            <td style="background-color: LightYellow"> <strong>Lec 17: <u>Quiz 3</u></strong><br> Tuesday<br> Mar 31 </td>
+            <td style="background-color: LightYellow"> <strong>Lec 17</strong><br> Tuesday<br> Mar 31 </td>
             <td style="background-color: LightYellow">
             Discrete distributions: <br>
             - Bernoulli, <br>
@@ -423,7 +423,7 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td>TJ</td>
         </tr>
         <tr>
-            <td> <strong>Lec 19</strong><br> Tuesday<br> Apr 7 </td>
+            <td> <strong>Lec 19: <u>Quiz 3</u></strong><br> Tuesday<br> Apr 7 </td>
             <td>
                 Reservoir sampling<br> 
                 Negative Binomial <br>
