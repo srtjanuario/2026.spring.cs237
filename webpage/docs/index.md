@@ -69,7 +69,7 @@
 
 
 
-*   Check our [Google Calendar](https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&mode=WEEK&src=Y182Y2I2M2Q3M2Y0NzQxMTU1Yzc4ZTI0MWU3OGI3MWIzZDc2NDA3ZTNhMGZlNjdlODlkOTIzMjVlMjNkMjFlMWY3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%237986cb&color=%230b8043) for our Office hours.
+*   Check our [Google Calendar](https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&mode=WEEK&src=Y182Y2I2M2Q3M2Y0NzQxMTU1Yzc4ZTI0MWU3OGI3MWIzZDc2NDA3ZTNhMGZlNjdlODlkOTIzMjVlMjNkMjFlMWY3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%237986cb&color=%230b8043) for hour Office hours.
 
 <center>
 <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&mode=WEEK&src=Y182Y2I2M2Q3M2Y0NzQxMTU1Yzc4ZTI0MWU3OGI3MWIzZDc2NDA3ZTNhMGZlNjdlODlkOTIzMjVlMjNkMjFlMWY3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%237986cb&color=%230b8043" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
@@ -243,7 +243,7 @@ This schedule is subject, and likely, to change as we progress through the semes
         <tr class="special-event">
             <td style="background-color: LightYellow"> Tuesday<br> Feb 17 </td>
             <td style="background-color: LightYellow">
-                Substitute Monday Schedule of Classes <br>
+                Substitute Monday Schedule of Classes 
                 <div class="agenda-item"> Check the <a
                         href="https://calendar.google.com/calendar/u/0/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America/New_York&mode=WEEK&src=Y182Y2I2M2Q3M2Y0NzQxMTU1Yzc4ZTI0MWU3OGI3MWIzZDc2NDA3ZTNhMGZlNjdlODlkOTIzMjVlMjNkMjFlMWY3QGdyb3VwLmcaWVuZGFyLmdvb2dsZS5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB&color=%230B8043">Google
                         Calendar</a> for the updated office hour schedule </div>
