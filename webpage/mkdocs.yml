@@ -1,1 +1,9 @@
 site_name: CS 237 - Spring 2026
+
+nav:
+  - About: https://cs-people.bu.edu/januario/
+  - Teaching: https://cs-people.bu.edu/januario/teaching/
+  - Research: https://cs-people.bu.edu/januario/research/
+  - Showcase: https://cs-people.bu.edu/januario/showcase/
+  - Wishlist: https://www.amazon.com/hz/wishlist/ls/JF079Z5ZBY1O?ref_=wl_share
+  - CV: https://cs-people.bu.edu/januario/CV/cv.pdf
