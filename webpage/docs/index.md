@@ -129,7 +129,7 @@ This schedule is subject, and likely, to change as we progress through the semes
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://www.probabilitycourse.com/chapter1/1_0_0_introduction.php">P 1.1</a>, <a
                         href="https://www.probabilitycourse.com/chapter1/1_2_0_review_set_theory.php">P 1.2</a>, <a
-                        href="https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2014/250d5dfd399a5612d232cc337fc51fa9_MIT18_05S14_Reading1b.pdf">OB
+                        href="https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2022/mit18_05_s22_class01-prep-b.pdf">OB
                         1B</a> </div>
                 <div class="agenda-item"> <span class="meta-label">Do:</span> <a
                         href="https://jupyter.org/try-jupyter/lab/">Jupyter Lab</a>, <a href="lec01.ipynb">Your first
