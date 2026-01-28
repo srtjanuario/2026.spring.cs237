@@ -320,9 +320,10 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td style="background-color: LightYellow;"> Thursday<br> Mar 5 </td>
             <td style="background-color: LightYellow;text-align: center;">
                 <div class="agenda-item"> 
-                <strong>Midterm, in class, during lecture time <br>
+               <strong>Midterm during lecture time <br>
                 Covers all topics up to Lecture 12 </strong> <br>
-                No discussion sections on Friday
+                <b>Locations</b>: KCB 106, SAR 103, CDS 614, HAR 222, and CDS 263. <br>
+                Read the midterm practice handout to find out your room location
                 </div>
             </td>
             <td style="background-color: LightYellow;"></td>
@@ -528,12 +529,12 @@ This schedule is subject, and likely, to change as we progress through the semes
         </tr>
         <tr class="special-event">
             <td style="background-color: LightYellow"> Tuesday<br> May 5 </td>
-            <td style="background-color: LightYellow;text-align: center;"> Final Exam for A2 Section <br> 12:00 - 2:00pm in KCB 106</td>
+            <td style="background-color: LightYellow;text-align: center;"> Final Exam for A2 Section <br> 12:00 - 2:00pm <br> Location: TBA</td>
             <td style="background-color: LightYellow;text-align: center;"></td>
         </tr>
         <tr class="special-event">
             <td style="background-color: LightYellow"> Thursday<br> May 7 </td>
-            <td style="background-color: LightYellow;text-align: center;"> Final Exam for A1 Section <br> 9:00 - 11:00am in KCB 106</td>
+            <td style="background-color: LightYellow;text-align: center;"> Final Exam for A1 Section <br> 9:00 - 11:00am <br> Location: TBA</td>
             <td style="background-color: LightYellow;text-align: center;"></td>
         </tr>
         <tr class="special-event">
