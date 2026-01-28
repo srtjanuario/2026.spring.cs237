@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width">
+
+
+<link rel="icon" type="image/x-icon" href="./favicon.jpg">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" integrity="sha384-nB0miv6/jRmo5UMMR1wu3Gz6NLsoTkbqJghGIsx//Rlm+ZU03BU6SQNC66uf4l5+" crossorigin="anonymous">
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" integrity="sha384-7zkQWkzuo3B5mTepMUcHkMB5jZaolc2xDwL6VFqjFALcbeS9Ggm/Yr2r3Dy4lfFg" crossorigin="anonymous"></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+</head>
+
+
+<body><style>
+img { max-width: 100%; }
+tr { page-break-inside:avoid; page-break-after:auto }
+td { page-break-after:auto; }
+td { border: 1px solid #ccc; padding: 1em; }
+.playImage { display: none; }
+</style><table cellspacing=10 width=100%><tr><td width="33.333333333333336%"><center>Bayes Rule
+
+<hr id=answer>
+
+Given events \(A,B\) with \(\mathbb{P}[A] &gt; 0, \mathbb{P}[B] &gt; 0\), Bayes rule allows you to switch the order of conditional probability.\[\mathbb{P}[A \mid B] = \frac{\mathbb{P}[B \mid A]\mathbb{P}[A]}{\mathbb{P}[B]}\]This is easy to derive from the definition of conditional probability and the chain rule.</center></td><td width="33.333333333333336%"><center>Bonus philosophy card: do continuous random variables exist in the real world?
+
+<hr id=answer>
+
+This is a deep question, and is no different than asking whether the universe is continuous or discrete.<br><br>Let's suppose for sake of argument that time and space are continuous. Then, continuous random variables really do exist: the time it takes for you to walk 10 steps is a continuous quantity which could take the value of any real number.&nbsp;<br><br>However, as humans, we can never observe the value a continuous random variable takes on. We can only observe discretizations of their values. I can never know exactly how long it took you to walk 10 steps, because even atomic clocks cannot accurately measure time in increments smaller than \(10^{-18}\) seconds.<br><br>Nevertheless, continuous random variables are extremely useful, because they allow us to compute the probabilities of events that occur in the real world - which, for all intents and purposes, acts like a continuous one.</center></td><td width="33.333333333333336%"><center>CDF
+
+<hr id=answer>
+
+Cumulative distribution function. Given a random variable \(X\) which may be continuous or discrete, the CDF&nbsp;is the function \(F(x) = \mathbb{P}[X \le x]\).&nbsp;</center></td></tr><tr><td width="33.333333333333336%"><center>Chain rule (probability)
+
+<hr id=answer>
+
+Given two events \(A,B\) with \(\mathbb{P}[A] &gt; 0\) and \(\mathbb{P}[B] &gt; 0\):<br>\[\mathbb{P}[A \cap B] = \mathbb{P}[A \mid B]\mathbb{P}[B] = \mathbb{P}[B \mid A]\mathbb{P}[A]\]</center></td><td width="33.333333333333336%"><center>Definition of conditional probability
+
+<hr id=answer>
+
+Computes the probability of an event \(A\) given, or conditioned on, an event \(B\) with \(\mathbb{P}[B] &gt; 0\). It is defined as:<br>\[\mathbb{P}[A \mid B] = \frac{\mathbb{P}[A \cap B]}{\mathbb{P}[B]}\]<br></center></td><td width="33.333333333333336%"><center>Discrete versus continuous random variables
+
+<hr id=answer>
+
+A discrete random variable is one whose range contains a countable number of values. For example, it could count the number of times you need to flip a coin to obtain heads. In this example, the range is infinite but countable. It could also have finite range, as all finite sets are countable: for example, the number of heads obtained after flipping 10 coins.<br><br>A continuous random variable is one whose range contains an uncountable number of values. For example, if we pick a random point on the real line between 0 and 10, the value of the point we pick is a continuous random variable. This is because the set of real numbers is uncountable.&nbsp;</center></td></tr><tr><td width="33.333333333333336%"><center>How to obtain a CDF from a PDF
+
+<hr id=answer>
+
+Integrate it. \(F(x) = \int_{-\infty}^x f(x) dx\).</center></td><td width="33.333333333333336%"><center>How to obtain a CDF from a PMF
+
+<hr id=answer>
+
+Sum. \(F(x) = \sum_{-\infty}^x f(x)\).</center></td><td width="33.333333333333336%"><center>How to obtain a PDF from a CDF
+
+<hr id=answer>
+
+Differentiate the CDF. \(f(x) = F'(x)\).</center></td></tr><tr><td width="33.333333333333336%"><center>How to obtain a PMF from a CDF
+
+<hr id=answer>
+
+For a random variable \(X\), \(f(x) = F(x) - F(y)\), where \(y\) is the largest number in the range of \(X\) smaller than \(x\).&nbsp;</center></td><td width="33.333333333333336%"><center>Independent events
+
+<hr id=answer>
+
+Two events \(A,B\) are independent if \(\mathbb{P}[A \cap B] = \mathbb{P}[A] \cdot \mathbb{P}[B]\).</center></td><td width="33.333333333333336%"><center>Law of total probability
+
+<hr id=answer>
+
+Given an event \(A\) and an event \(B\) with \(\mathbb{P}[B] &gt; 0\), the law of total probability states:<br>\[\mathbb{P}[A] = \mathbb{P}[A \mid B]\mathbb{P}[B] + \mathbb{P}[A \mid \overline{B}]\mathbb{P}[\overline{B}]\]<br>More generally, given an event \(A\) and an partition of the sample space \(B_1,\dots,B_k\), the law of total probability states:<br>\[\mathbb{P}[A] = \sum_{i=1}^k \mathbb{P}[A \mid B_i]\mathbb{P}[B_i]\]<div>Note this also works with a countably infinite partition.&nbsp;</div></center></td></tr><tr><td width="33.333333333333336%"><center>Mutual independence
+
+<hr id=answer>
+
+A set of events \(A_1,\dots,A_n\) is mutually independent if for every \(S \subseteq [n]\),<br>\[\mathbb{P}[\bigcap_{i \in S} A_i] = \prod_{i \in S}\mathbb{P}[A_i]\]</center></td><td width="33.333333333333336%"><center>PDF
+
+<hr id=answer>
+
+Probability density function, usually denoted \(f(x)\). This is for a continuous random variable and measures the density of the random variable at \(x\).</center></td><td width="33.333333333333336%"><center>PMF
+
+<hr id=answer>
+
+Probability mass function, usually denote \(f(x)\). This is for discrete random variables and, for a random variable \(X\), outputs the probability that \(X=x\).</center></td></tr><tr><td width="33.333333333333336%"><center>Pairwise independence for a collection of events
+
+<hr id=answer>
+
+A collection of events \(A_1,\dots,A_n\) is pairwise independent if for all distinct \(i,j \in [n]\), \(A_i\) and \(A_j\) are independent.</center></td><td width="33.333333333333336%"><center>Probability of a single outcome in a continuous probability space
+
+<hr id=answer>
+
+Every individual outcome in a continuous probability space occurs with probability 0</center></td><td width="33.333333333333336%"><center>Properties of PDF
+
+<hr id=answer>
+
+A function \(f: \mathbb{R} \to \mathbb{R}\) is a PDF if<br><ul><li>\(f(x) \ge 0\) for all \(x \in \mathbb{R}\)</li><li>\(\int_{-\infty}^\infty f(x) dx = 1\)</li></ul><div><br></div><div>A small technicality that we won't test you on is we also technically need \(f\) to be Lebesgue measurable so that the integral over \(\mathbb{R}\) (and other sets) is well defined.</div></center></td></tr><tr><td width="33.333333333333336%"><center>Properties of PMF
+
+<hr id=answer>
+
+A function \(f: \mathbb{R} \to \mathbb{R}\)&nbsp;is a PMF if:<br><ul><li>&nbsp;\(f(x) \ge 0\) for all \(x \in \mathbb{R}\)</li><li>\(\sum_{x \in \mathbb{R}} f(x) = 1\)</li></ul></center></td><td width="33.333333333333336%"><center>Properties of a CDF
+
+<hr id=answer>
+
+A function \(F: \mathbb{R} \to \mathbb{R}\) is a CDF if<ul><li>\(F(x)\) is non-decreasing</li><li>\(\lim_{x \to -\infty} F(x) = 0\)</li><li>\(\lim_{x \to +\infty} F(x) = 1\)</li></ul><div><br></div><div>There is technically one more point needed as well, but we won't test you on it:</div><ul><li>\(F(x)\) is right-continuous, meaning that \(\lim_{y \to x^+} f(y) = f(x)\)&nbsp;for all \(x \in \mathbb{R}\). In other words, when I approach any point \(x\) from the right, the limit is \(f(x)\).&nbsp;</li></ul></center></td><td width="33.333333333333336%"><center>What is a random variable
+
+<hr id=answer>
+
+A random variable is a function from the outcomes of a probability space to the real numbers</center></td></tr><tr><td width="33.333333333333336%"><center>\(k\)-wise independence
+
+<hr id=answer>
+
+A set of events \(A_1,\dots,A_n\) are \(k\)-wise independent if every subset of at most \(k\) of these events are mutually independent.&nbsp;</center></td></tr></table></body></html>

@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="None">
+        
+        
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>CS 237 - Spring 2026</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/fontawesome.min.css" rel="stylesheet">
+        <link href="css/brands.min.css" rel="stylesheet">
+        <link href="css/solid.min.css" rel="stylesheet">
+        <link href="css/v4-font-face.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body class="homepage">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href=".">CS 237 - Spring 2026</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="https://cs-people.bu.edu/januario/" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://cs-people.bu.edu/januario/teaching/" class="nav-link">Teaching</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://cs-people.bu.edu/januario/research/" class="nav-link">Research</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://cs-people.bu.edu/januario/showcase/" class="nav-link">Showcase</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://www.amazon.com/hz/wishlist/ls/JF079Z5ZBY1O?ref_=wl_share" class="nav-link">Wishlist</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://cs-people.bu.edu/januario/CV/cv.pdf" class="nav-link">CV</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#cas-cs-237-probability-in-computing-spring-2026" class="nav-link">CAS CS 237 - Probability in Computing - Spring 2026</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#course-staff" class="nav-link">Course Staff</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#communication-and-office-hours" class="nav-link">Communication and Office hours</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#prerequisites" class="nav-link">Prerequisites</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#syllabus" class="nav-link">Syllabus</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#course-structure" class="nav-link">Course structure</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#textbooks" class="nav-link">Textbooks</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#schedule" class="nav-link">Schedule</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#participation-and-attendance" class="nav-link">Participation and Attendance</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#homework-policy" class="nav-link">Homework Policy</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#exams" class="nav-link">Exams</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#quizzes" class="nav-link">Quizzes</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#grading" class="nav-link">Grading</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#regrade-policy" class="nav-link">Regrade Policy</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#ai-policy" class="nav-link">AI Policy</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#miscellaneous" class="nav-link">Miscellaneous</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#faq" class="nav-link">FAQ</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="cas-cs-237-probability-in-computing-spring-2026">CAS CS 237 - Probability in Computing - Spring 2026</h1>
+<hr />
+<h2 id="course-staff">Course Staff</h2>
+<table class="staff-table">
+    <tr>
+        <td class="role">Instructors</td>
+        <td>
+            <a href="https://nathan-klein.github.io/">Prof. Nathan Klein</a><br>
+            <a href="https://cs-people.bu.edu/januario/">Prof. Tiago Januario</a>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="role">Teaching Fellows</td>
+        <td>
+            <a href="https://cs-people.bu.edu/taduy/">Ta Duy Nguyen</a><br>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="role">Teaching Assistant</td>
+        <td>
+            <a href="https://www.linkedin.com/in/steve-choi-75b9a1273/">Steve Choi</a><br>
+            <a href="https://www.linkedin.com/in/daniel-matuzka-3a1185295/">Daniel Matuzka</a><br>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="role">Course Assistants</td>
+        <td>
+
+            <!-- <a href="https://www.linkedin.com/in/letitia-caspersen">Letitia Caspersen</a><br> -->
+
+            Vi Tjiong<br>
+            <a href="https://www.linkedin.com/in/syuhan/">Sarah Yuhan</a><br>
+            <a href="https://www.linkedin.com/in/changyoon-oh-903b42352">Yoon Oh</a>
+        </td>
+    </tr>
+</table>
+<hr />
+<h2 id="communication-and-office-hours">Communication and Office hours</h2>
+<div style="display: flex;">
+  <div style="flex: 1; padding-right: 10px;">
+  <ul>
+      <li><a href="https://piazza.com/" target="_blank">Piazza</a> is the <strong>primary platform</strong> for all online discussions, questions, and answers.
+        <ul>
+          <li>Use <strong>private posts</strong> for sensitive or specific questions regarding your solutions or personal matters.</li>
+          <li><b>Do not send emails</b> to the course staff.</li>
+        </ul>
+      </li>
+      <li>We aim to maintain a <strong>positive and inclusive atmosphere</strong> on all course platforms.</li>
+      <li>If you need <strong>special accommodations</strong> or are facing <strong>unusual circumstances</strong> during the semester, please reach out to an instructor privately via Piazza as early as possible.
+        <ul>
+          <li>For accommodations, forward relevant documentation from <a href="https://www.bu.edu/disability/">Disability and Access Services</a>.</li>
+        </ul>
+      </li>
+      <li>Your <strong>suggestions</strong> for improving the course are always encouraged and appreciated.</li>
+    </ul>
+  </div>
+  <div style="flex: 1; padding-left: 10px;">
+<img src="email.gif" style="width:95%;">
+  </div>
+</div>
+
+<ul>
+<li>Check our <a href="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;ctz=America%2FNew_York&amp;showPrint=0&amp;mode=WEEK&amp;src=Y182Y2I2M2Q3M2Y0NzQxMTU1Yzc4ZTI0MWU3OGI3MWIzZDc2NDA3ZTNhMGZlNjdlODlkOTIzMjVlMjNkMjFlMWY3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%237986cb&amp;color=%230b8043">Google Calendar</a> for our Office hours.</li>
+</ul>
+<center>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&mode=WEEK&src=Y182Y2I2M2Q3M2Y0NzQxMTU1Yzc4ZTI0MWU3OGI3MWIzZDc2NDA3ZTNhMGZlNjdlODlkOTIzMjVlMjNkMjFlMWY3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%237986cb&color=%230b8043" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+</center>
+
+<hr />
+<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+<li><a href="https://www.bu.edu/academics/cas/courses/cas-cs-131/">CS 131 - Combinatoric Structures</a></li>
+<li><a href="https://www.bu.edu/academics/cas/courses/cas-ma-123/">MA 123 - Calculus I</a></li>
+<li><a href="https://www.bu.edu/academics/cas/courses/cas-cs-111/">CS 111 - Introduction to Computer Science I</a></li>
+</ul>
+<p>We assume good working knowledge of elementary set theory and counting, elementary calculus (i.e., integration and differentiation), and programming in Python.</p>
+<hr />
+<h2 id="syllabus">Syllabus</h2>
+<p>Introduction to basic probabilistic concepts and methods used in computer science. Develops an understanding of the crucial role played by randomness in computing, both as a powerful tool and as a challenge to confront and analyze. Emphasis on rigorous reasoning, analysis, and algorithmic thinking. This course fulfills a single unit in each of the following BU Hub areas: Quantitative Reasoning II, Critical Thinking.</p>
+<hr />
+<h2 id="course-structure">Course structure</h2>
+<ul>
+<li>Attendance in lectures and discussion is mandatory</li>
+<li>The two lecture sections of the course will be treated as one class. However, you must attend the section you are signed up for (please discuss with us if there is an issue).</li>
+<li>The content of the two lectures is identical, and assignments will be shared.</li>
+</ul>
+<hr />
+<h2 id="textbooks">Textbooks</h2>
+<p>You can access both books for free or support the authors by purchasing the books.</p>
+<ul>
+<li>(LLM) <a href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf">Mathematics for Computer Science</a> by Eric Lehman, Tom Leighton, and Albert Meyer.</li>
+<li>(P) <a href="https://www.probabilitycourse.com/">Introduction to Probability, Statistics, and Random Processes</a> by Hossein Pishro-Nik.</li>
+<li>(CLRS) Cormen, Leiserson, Rivest, and Stein. Introduction to Algorithms, Fourth Edition, MIT Press.</li>
+</ul>
+<hr />
+<h2 id="schedule">Schedule</h2>
+<p>This schedule is subject, and likely, to change as we progress through the semester. Reading chapters are from the <a href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf">first textbook</a> (LLM) or from the <a href="https://www.probabilitycourse.com/">second textbook</a> (P), referred to by the acronyms of the author names.</p>
+<table>
+    <thead>
+        <tr>
+            <th>Date / Lec</th>
+            <th>Agenda (Topics, Readings, Homework)</th>
+            <th>Instr.</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td> <strong>Lec 1</strong><br> Tuesday<br> Jan 20 </td>
+            <td>
+                Course information<br> 
+                Tips to succeed<br> Random experiments<br> 
+                Sample spaces, events<br> 
+                <!-- <ahref="./slides/cs237L01-annotated.pdf">[Slides with notes]</a><br> -->
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://www.probabilitycourse.com/chapter1/1_0_0_introduction.php">P 1.1</a>, <a
+                        href="https://www.probabilitycourse.com/chapter1/1_2_0_review_set_theory.php">P 1.2</a>, <a
+                        href="https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2022/mit18_05_s22_class01-prep-b.pdf">OB
+                        1B</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> <a
+                        href="https://jupyter.org/try-jupyter/lab/">Jupyter Lab</a>, <a href="lec01.ipynb">Your first
+                        Jupyter Notebook</a>, <a href="collaboration-policy.pdf">Collaboration & Honesty Policy</a>
+                </div>
+            </td>
+            <td>TJ</td>
+        </tr>
+        <tr>
+            <td> <strong>Lec 2</strong><br> Thurday<br> Jan 22 </td>
+            <td>
+                Probability function<br> 
+                Symmetry<br> 
+                Probability axioms <br> 
+                <!-- <a href="./slides/cs237L02-annotated.pdf">[Slides with notes]</a> -->
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.17.1">LLM 17.1</a>, <a
+                        href="https://www.probabilitycourse.com/chapter1/1_3_1_random_experiments.php">P 1.3.1-1.3.3</a>
+                </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> hw01 out </div>
+            </td>
+            <td>TJ</td>
+        </tr>
+        <tr>
+            <td> <strong>Lec 3</strong><br> Tuesday <br> Jan 27 </td>
+            <td>
+                Probability rules<br> 
+                Computing probabilities <br> 
+                <!-- <a href="./slides/cs237L03-annotated.pdf">[Slides with notes]</a><br> -->
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.17.3">LLM 17.3</a>, <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.17.5">LLM 17.5</a>, <a
+                        href="https://www.probabilitycourse.com/chapter2/2_1_0_counting.php">P 2</a> </div>
+            </td>
+            <td>TJ</td>
+        </tr>
+        <tr>
+            <td> <strong>Lec 4</strong><br> Thurday <br> Jan 29 </td>
+            <td>
+                Tree diagrams<br> 
+                The Monty Hall problem<br> 
+                <!-- <a href="./slides/cs237L04-annotated.pdf">[Slides with notes]</a><br> -->
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.17.2">LLM 17.2</a>, <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.18.1">LLM 18.1.2</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> hw02 out </div>
+            </td>
+            <td>TJ</td>
+        </tr>
+        <tr>
+            <td style="background-color: LightYellow"> <strong>Lec 5: <u>Quiz 1</u></strong><br> Tuesday<br> Feb 3</td>
+            <td style="background-color: LightYellow">
+                Continuous Probability Spaces<br> 
+                Anomalies with Continuous Probability <br>
+                <!-- <a href="./slides/cs237L05-annotated.pdf">[Slides with notes]</a><br> -->
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://www.probabilitycourse.com/chapter1/1_3_5_continuous_models.php">P 1.3.5</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Watch:</span> <a
+                        href="https://www.probabilitycourse.com/videos/chapter1/video1_4.php">Video</a>, <a
+                        href="https://www.youtube.com/watch?v=ZA4JkHKZM50">Why “probability of 0” does not mean
+                        “impossible”</a> </div>
+            </td>
+            <td style="background-color: LightYellow">TJ</td>
+        </tr>
+        <tr>
+            <td> <strong>Lec 6</strong><br> Thursday<br> Feb 5 </td>
+            <td>
+                Random variables<br> 
+                Sum of random variables<br>
+                Definition and examples <br>
+                <!-- <a href="./slides/cs237L06-annotated.pdf">[Slides with notes]</a><br> -->
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.1">LLM 19.1</a>, <a
+                        href="https://www.probabilitycourse.com/chapter3/3_1_1_random_variables.php">P 3.1.1</a>, <a
+                        href="https://www.probabilitycourse.com/chapter3/3_1_2_discrete_random_var.php">P 3.1.2</a>
+                </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> hw03 out </div>
+            </td>
+            <td>TJ</td>
+        </tr>
+        <tr>
+            <td> <strong>Lec 7</strong><br> Tuesday<br> Feb 10 </td>
+            <td>
+                Distribution Functions: PDF and CDF <br>
+                <!-- <a href="./slides/cs237L07-annotated.pdf">[Slides with notes]</a><br>  -->
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://www.probabilitycourse.com/chapter3/3_1_3_pmf.php">P 3.1.3</a>, <a
+                        href="https://www.probabilitycourse.com/chapter3/3_2_1_cdf.php">P 3.2.1</a>, <a
+                        href="https://www.probabilitycourse.com/chapter4/4_1_0_continuous_random_vars_distributions.php">P
+                        4.1.0</a>, <a href="https://www.probabilitycourse.com/chapter4/4_1_1_pdf.php">P 4.1.1</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Watch:</span> <a
+                        href="https://www.probabilitycourse.com/videos/chapter3/video3_1.php">Video</a> </div>
+            </td>
+            <td>TJ</td>
+        </tr>
+        <tr>
+            <td> <strong>Lec 8</strong><br> Thursday<br> Feb 12 </td>
+            <td>
+                Properties of PDFs and CDFs<br> 
+                Functions of random Variables<br>
+                <!-- <a href="./slides/cs237L08-annotated.pdf">[Slides with notes]</a><br>  -->
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://www.probabilitycourse.com/chapter3/3_1_6_solved3_1.php">P 3.1.6</a>, <a
+                        href="https://www.probabilitycourse.com/chapter4/4_1_4_solved4_1.php">P 4.1.4</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> hw04 out </div>
+                <div class="agenda-item"> <span class="meta-label">Watch:</span> <a
+                        href="https://www.probabilitycourse.com/videos/chapter3/video3_1.php">Video</a> </div>
+            </td>
+            <td>TJ</td>
+        </tr>
+        <tr class="special-event">
+            <td style="background-color: LightYellow"> Tuesday<br> Feb 17 </td>
+            <td style="background-color: LightYellow">
+                Substitute Monday Schedule of Classes 
+                <div class="agenda-item"> Check the <a
+                        href="https://calendar.google.com/calendar/u/0/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America/New_York&mode=WEEK&src=Y182Y2I2M2Q3M2Y0NzQxMTU1Yzc4ZTI0MWU3OGI3MWIzZDc2NDA3ZTNhMGZlNjdlODlkOTIzMjVlMjNkMjFlMWY3QGdyb3VwLmcaWVuZGFyLmdvb2dsZS5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB&color=%230B8043">Google
+                        Calendar</a> for the updated office hour schedule </div>
+            </td>
+            <td style="background-color: LightYellow"> </td>
+        </tr>
+        <tr>
+            <td> <strong>Lec 9</strong><br> Thursday<br> Feb 19 </td>
+            <td>
+                <div class="agenda-item"> <span class="topic-title">
+                Conditional Probability<br> 
+                Pr(⋅ ∣ 𝐸) is a probability function <br>
+                Conditional Probability in Tree Diagrams<br> 
+                </span> 
+                        <!-- <a href="./slides/cs237L09-annotated.pdf">[Slides with notes]</a> -->
+                </div>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#chapter.18">LLM 18</a>, <a
+                        href="https://www.probabilitycourse.com/chapter1/1_4_0_conditional_probability.php">P 1.4.0</a>
+                </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> hw05 out </div>
+                <div class="agenda-item"> <span class="meta-label">Play:</span> <a
+                        href="https://www.stem.org.uk/resources/elibrary/resource/440253/card-game-conditional-probability">Game:
+                        higher or lower?</a> </div>
+            </td>
+            <td>NK</td>
+        </tr>
+        <tr>
+            <td> <strong>Lec 10</strong><br> Tuesday<br> Feb 24 </td>
+            <td>
+                Product Rule<br> 
+                Law of Total Probability (generalization)<br> 
+                Bayes’ Rule <br>
+                <!-- <a href="./slides/cs237L10-annotated.pdf">[Slides with notes]</a>  -->
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://www.probabilitycourse.com/chapter1/1_4_2_total_probability.php">P 1.4.2</a>, <a
+                        href="https://www.probabilitycourse.com/chapter1/1_4_3_bayes_rule.php">P 1.4.3</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Watch:</span> <a
+                        href="https://www.youtube.com/watch?v=HZGCoVF3YvM">The geometry of changing beliefs</a>, <a
+                        href="https://www.youtube.com/watch?v=R13BD8qKeTg">Veritasium</a> </div>
+            </td>
+            <td>TJ</td>
+        </tr>
+        <tr>
+            <td> <strong>Lec 11</strong><br> Thursday<br> Feb 26 </td>
+            <td>
+                Independent Events<br> 
+                Independence for Multiple Events <br>
+                <!-- <a href="./slides/cs237L11-annotated.pdf">[Slides with notes]</a><br>  -->
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.18.7">LLM 18.7</a>, <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.18.8">LLM 18.8</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> hw06 out </div>
+                <div class="agenda-item"> Last Day to Drop Standard Courses (without a “W” grade) </div>
+            </td>
+            <td>TJ</td>
+        </tr>
+        <tr>
+            <td style="background-color: LightYellow"> <strong>Lec 12: <u>Quiz 2</u></strong><br> Tuesday<br> Mar 3 </td>
+            <td style="background-color: LightYellow"> 
+                Independence for Random Variables<br>
+                Pairwise and Mutual Independence<br>
+                <a href="https://en.wikipedia.org/wiki/People_v._Collins">People v. Collins</a><br> 
+                <!-- <a href="./slides/cs237L12-annotated.pdf">[Slides with notes]</a> <br> -->
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.18.9">LLM 18.9</a>, <a
+                        href="https://www.probabilitycourse.com/chapter1/1_4_1_independence.php">P 1.4.1</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Watch:</span> <a
+                        href="https://www.youtube.com/watch?v=rIjIcWeY1X0">Video</a> </div>
+            </td>
+            <td style="background-color: LightYellow">TJ</td>
+        </tr>
+        <tr class="special-event">
+            <td style="background-color: LightYellow;"> Thursday<br> Mar 5 </td>
+            <td style="background-color: LightYellow;text-align: center;">
+                <div class="agenda-item"> 
+               <strong>Midterm during lecture time <br>
+                Covers all topics up to Lecture 12 </strong> <br>
+                <b>Locations</b>: KCB 106, SAR 103, CDS 614, HAR 222, and CDS 263. <br>
+                Read the midterm practice handout to find out your room location
+                </div>
+            </td>
+            <td style="background-color: LightYellow;"></td>
+        </tr>
+        <tr class="special-event">
+            <td> Tuesday<br> Mar 10 </td>
+            <td style="text-align: center;"> 🌸 <strong>Spring break</strong>🌺 </td>
+            <td></td>
+        </tr>
+        <tr class="special-event">
+            <td> Thursday<br> Mar 12 </td>
+            <td style="text-align: center;"> 🌼 <strong>Spring break</strong> 🌷 </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td> <strong>Lec 13</strong><br> Tuesday<br> Mar 17 </td>
+            <td>
+            More Independence <br> 
+            Expected value of a random variable<br>
+            Infinite sums<br> 
+                <!-- <a href="./slides/cs237L13-annotated.pdf">[Slides with notes]</a> -->
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.4">LLM 19.4</a>, <a
+                        href="https://www.probabilitycourse.com/chapter3/3_2_2_expectation.php">P 3.2.2</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> Midterm practice problems out </div>
+            </td>
+            <td>NK</td>
+        </tr>
+        <tr>
+            <td> <strong>Lec 14</strong><br> Thursday<br> Mar 19 </td>
+            <td>
+                Linearity of expectation<br>
+                Law of the unconscious statistician<br> 
+                <!-- <a href="./slides/cs237L14-annotated.pdf">[Slides with notes]</a> <br> -->
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.5">LLM 19.5</a>, <a
+                        href="https://www.probabilitycourse.com/chapter6/6_1_2_sums_random_variables.php">P 6.1.2</a>
+                </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> hw07 out </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> Midterm practice solutions out </div>
+            </td>
+            <td>NK</td>
+        </tr>
+        <tr>
+            <td> <strong>Lec 15</strong><br> Tuesday<br> Mar 24 </td>
+            <td>
+                Conditional expectation<br> 
+                Linearity of conditional expectation <br>
+                Law of total expectation<br> 
+                <!-- <a href="./slides/cs237L15-annotated.pdf">[Slides with notes]</a> <br> -->
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.4">LLM 19.4.1</a>, <a
+                        href="https://www.probabilitycourse.com/chapter3/3_2_3_functions_random_var.php">P 3.2.3</a>, <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.4">LLM 19.4.6</a> </div>
+            </td>
+            <td>NK</td>
+        </tr>
+        <tr>
+            <td> <strong>Lec 16</strong><br> Thursday<br> Mar 26 </td>
+            <td>
+                Variance<br> 
+                Standard deviation<br> 
+                Variance properties<br>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.3">LLM 20.3</a>, <a
+                        href="https://www.probabilitycourse.com/chapter3/3_2_4_variance.php">P 3.2.4</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> hw08 out </div>
+                <div class="agenda-item"> <span class="meta-label">Watch:</span> <a
+                        href="https://www.probabilitycourse.com/videos/chapter3/video3_9.php">Video</a> </div>
+            </td>
+            <td>NK</td>
+        </tr>
+        <tr>
+            <td style="background-color: LightYellow"> <strong>Lec 17</strong><br> Tuesday<br> Mar 31 </td>
+            <td style="background-color: LightYellow">
+            Discrete distributions: <br>
+            - Bernoulli, <br>
+            - Uniform, <br>
+            - Binomial
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.3">LLM 19.3.1</a>, <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.3">LLM 19.3.2</a>, <a
+                        href="https://www.probabilitycourse.com/chapter3/3_1_5_special_discrete_distr.php">P 3.1.5</a>
+                </div>
+            </td>
+            <td style="background-color: LightYellow">TJ</td>
+        </tr>
+        <tr>
+            <td> <strong>Lec 18</strong><br> Thursday<br> Apr 2 </td>
+            <td>
+                Discrete distributions: <br>
+                - Geometric and its properties <br>
+                - Coupon collector's problem<br> 
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.5">LLM 19.5.4</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> hw09 out </div>
+            </td>
+            <td>TJ</td>
+        </tr>
+        <tr>
+            <td> <strong>Lec 19: <u>Quiz 3</u></strong><br> Tuesday<br> Apr 7 </td>
+            <td>
+                Reservoir sampling<br> 
+                Negative Binomial <br>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://en.wikipedia.org/wiki/Reservoir_sampling">Wikipedia</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Watch:</span> <a
+                        href="https://www.youtube.com/watch?v=BstloCx8KDk">Stand-up Maths</a> </div>
+            </td>
+            <td>NK</td>
+        </tr>
+        <tr>
+            <td> <strong>Lec 20</strong><br> Thursday<br> Apr 9 </td>
+            <td>
+                Markov inequality<br> 
+                Chebyshev inequality<br>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.1">LLM 20.1</a>, <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.2">LLM 20.2</a>, <a
+                        href="https://www.probabilitycourse.com/chapter6/6_2_2_markov_chebyshev_inequalities.php">P
+                        6.2.2</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> hw10 out </div>
+            </td>
+            <td>NK</td>
+        </tr>
+        <tr>
+            <td> <strong>Lec 21</strong><br> Tuesday<br> Apr 14 </td>
+            <td>
+                Applications of Markov and Chebyshev's inequalities<br> 
+                Continuous Uniform Distribution <br>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.1">LLM 20.1.1</a>, <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.2">LLM 20.2.1</a> </div>
+            </td>
+            <td>NK</td>
+        </tr>
+        <tr>
+            <td> <strong>Lec 22</strong><br> Thursday<br> Apr 16 </td>
+            <td>
+                Normal distribution <br>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.2">LLM 20.2.2</a>, <a
+                        href="https://www.probabilitycourse.com/chapter4/4_2_3_normal.php">P 4.2.3</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> hw11 out </div>
+            </td>
+            <td>NK</td>
+        </tr>
+        <tr>
+            <td> <strong>Lec 23</strong><br> Tuesday<br> Apr 21 </td>
+            <td>
+                Exponential distribution <br>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://www.probabilitycourse.com/chapter4/4_2_2_exponential.php">P 4.2.2</a>, <a
+                        href="https://www.probabilitycourse.com/chapter11/11_1_2_basic_concepts_of_the_poisson_process.php">P
+                        11.1.2</a> </div>
+            </td>
+            <td>NK</td>
+        </tr>
+        <tr>
+            <td> <strong>Lec 24</strong><br> Thursday<br> Apr 23 </td>
+            <td>
+                Poisson Process <br>
+                Poisson Distribution <br>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://www.probabilitycourse.com/chapter11/11_1_2_basic_concepts_of_the_poisson_process.php">P
+                        11.1.2</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> hw12 out<br> Final Practice Problems out
+            </td>
+            <td>NK</td>
+        </tr>
+        <tr>
+            <td style="background-color: LightYellow"> <strong>Lec 25: <u>Quiz 4</u></strong><br> Tuesday<br> Apr 28 </td>
+            <td style="background-color: LightYellow">
+                Central Limit Theorem <br>
+                Law of Large Numbers <br>
+                <a href="https://my-bu.bluera.com/">Course evaluation</a> 
+                <div class="agenda-item"> <span class="meta-label">Read:</span> CLRS 8.4 </div>
+                </div>
+            </td>
+            <td style="background-color: LightYellow">NK</td>
+        </tr>
+        <tr>
+            <td> <strong>Lec 26</strong><br> Thursday<br> Apr 30 </td>
+            <td>
+                Applied probability <br>
+                Chernoff bounds <br>
+                <a href="https://my-bu.bluera.com/">Course evaluation</a> 
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://en.wikipedia.org/wiki/Reservoir_sampling">Wiki</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> Final Practice Solutions out </div>
+            </td>
+            <td>NK</td>
+        </tr>
+        <tr class="special-event">
+            <td> Friday<br> May 1 </td>
+            <td> Study Period begins - no discussion sections</td>
+            <td>--</td>
+        </tr>
+        <tr class="special-event">
+            <td style="background-color: LightYellow"> Monday<br> May 4 </td>
+            <td style="background-color: LightYellow;text-align: center;"> Final Exam Week Begins </td>
+            <td style="background-color: LightYellow;text-align: center;"> </td>
+        </tr>
+        <tr class="special-event">
+            <td style="background-color: LightYellow"> Tuesday<br> May 5 </td>
+            <td style="background-color: LightYellow;text-align: center;"> Final Exam for A2 Section <br> 12:00 - 2:00pm <br> Location: TBA</td>
+            <td style="background-color: LightYellow;text-align: center;"></td>
+        </tr>
+        <tr class="special-event">
+            <td style="background-color: LightYellow"> Thursday<br> May 7 </td>
+            <td style="background-color: LightYellow;text-align: center;"> Final Exam for A1 Section <br> 9:00 - 11:00am <br> Location: TBA</td>
+            <td style="background-color: LightYellow;text-align: center;"></td>
+        </tr>
+        <tr class="special-event">
+            <td style="background-color: LightYellow"> Friday<br> May 8 </td>
+            <td style="background-color: LightYellow;text-align: center;"> Final Exam Week Ends </td>
+            <td style="background-color: LightYellow;text-align: center;"> </td>
+        </tr>
+    </tbody>
+</table>
+
+<!--We have prearranged the following date and time for students with final exam conflict:
+
+* Alternative Final exam date: December 16th
+* Time: 3:00 PM – 5:00 PM
+* Location: STHB19
+
+Students with exam accommodations, regardless or their final exam conflict, will take the final exam at same day and initial time of the other students at CDS 801.
+-->
+
+<hr />
+<h2 id="participation-and-attendance">Participation and Attendance</h2>
+<ul>
+<li>Participation in lecture will be tracked with <a href="https://tophat.com">Top Hat</a>. We will start using this in the second week of classes.</li>
+<li>Participation in discussion labs will be tracked with <a href="https://tophat.com">Top Hat</a> as well.</li>
+<li>You will get full participation points if you answer at least 85% of the possible <a href="https://tophat.com">Top Hat</a> questions. You do not need to answer correctly, although we encourage you to use these questions as exam preparation.</li>
+<li>You will get full attendance points if you attend at least 85% of the discussion labs.</li>
+<li>If you end up with x% points, where x &lt; 85, you will get x/85 of the points.</li>
+<li>Most of the material covered in lectures and labs can be found in our textbooks. Read them!</li>
+<li>While our textbook will be very helpful, it is an imperfect substitute for in-class learning, which is the fastest (and easiest) way to learn the material.</li>
+<li>In all cases, you are responsible for being up to date on the material.</li>
+</ul>
+<hr />
+<h2 id="homework-policy">Homework Policy</h2>
+<ul>
+<li><strong>Submission:</strong> Weekly assignments are posted on Fridays and due by <strong>Thursday at 9:00 PM ET</strong> via <a href="https://www.gradescope.com/">Gradescope</a>. A 3-hour grace period is allowed; submissions after this period will not be accepted.</li>
+<li><strong>Content:</strong> Provide step-by-step explanations for your answers. Submissions with only answers will receive minimal credit.</li>
+<li><strong>Formatting:</strong> Submit solutions as <strong>one single PDF file</strong> with high-quality images. Illegible submissions will receive a 0. We recommend using <a href="https://www.dropbox.com/referrals/AABXucmmhueiq5iaPPSTVfnTpOeddYmso_0?src=global9">Dropbox</a> for scanning.</li>
+<li><strong>Gradescope Page Selection:</strong> Correctly select the pages for each problem on Gradescope. Failure to do so will result in a 10% penalty. If you don't have a solution, note "No solution provided."</li>
+<li><strong>Late Policy:</strong> You may use up to 3 grace periods without penalty. After that, each late submission incurs a 1% penalty.</li>
+<li><strong>Dropped Homework:</strong> The lowest homework grade will be dropped after penalties are applied. (Note that the intent of this is to allow you leeway on one <em>emergency</em> situation. Do not simply use your free dropped homework because you feel like it.)</li>
+<li><strong>Academic Integrity and Collaboration:</strong><ul>
+<li>The <a href="collaboration-policy.pdf">Collaboration &amp; Honesty Policy</a> outlines the rules of collaboration and penalties for cheating. All students are required to read, sign, and submit this document to Gradescope.</li>
+<li>Submitting identically worded answers, including pseudocode, is a <strong>serious offense</strong> and will be reported to the Dean's Office (<a href="https://www.bu.edu/academics/policies/academic-conduct-code/#VI">BU Academic Conduct Code</a>).</li>
+<li>Using ChatGPT or similar AI for homework solutions violates the <a href="collaboration-policy.pdf">Collaboration &amp; Honesty Policy</a>. </li>
+<li>You are not required to cite material from the course textbook, lectures, discussion notes, or information provided by course staff.</li>
+<li>For any other external information, <strong>a proper citation is required</strong>. Failure to cite constitutes plagiarism.</li>
+<li>Explicitly searching for problem answers online or from individuals not enrolled in the current semester's class is strictly forbidden.</li>
+<li>If you receive help on Piazza or during office hours from instructors for specific problems, you must list them as collaborators.</li>
+</ul>
+</li>
+<li><strong>Partial Submissions:</strong> Submitting partial work is acceptable if you cannot fully complete an assignment; avoid missing the deadline entirely.</li>
+<li><strong>The instructors retain the right to oral explanation of any student work submitted for a grade</strong>. If the student cannot explain the work they have submitted, the instructor will assign a grade of 0 on the entire assignment in question.</li>
+</ul>
+<hr />
+<h2 id="exams"><a href="duck.png">Exams</a></h2>
+<ul>
+<li>Both exams will consist of problem-solving and short questions about the material.</li>
+<li>Each exam duration and its location are given in the course schedule.</li>
+<li>The content of the final is cumulative.</li>
+<li>No collaboration whatsoever is permitted on exams, <strong>any violation will be reported to the College.</strong></li>
+<li>Makeup exams will only be given in documented cases of serious illness.</li>
+</ul>
+<hr />
+<h2 id="quizzes">Quizzes</h2>
+<ul>
+<li>There will be four quizzes based on flashcards that will be posted weekly on Piazza. The quiz dates are posted on the schedule. The quizzes are all cumulative and will be simple short answers based on the flashcards. Quizzes will be held at the beginning of class and will last 10-15 minutes.</li>
+<li>Your lowest quiz score will be dropped. Similar to the homework, the intent of this is to give you leeway in an emergency situation.</li>
+<li>We use <a href="https://apps.ankiweb.net/">Anki</a> for flashcards. You can download a free app at that link. We will also post the flashcards in plaintext if you prefer to print them out or just look at them on a website.</li>
+</ul>
+<hr />
+<h2 id="grading">Grading</h2>
+<p>The course grade will be calculated as follows:</p>
+<ul>
+<li>5% class participation</li>
+<li>5% lab attendance</li>
+<li>10% quizzes</li>
+<li>20% weekly homework assignments</li>
+<li>25% in-class midterm exam</li>
+<li>35% in-class final exam. <strong>Don't make any travel plans before knowing all dates of your final exams.</strong></li>
+<li><strong>Incompletes for this class will be granted based on</strong> <a href="https://www.bu.edu/cas/faculty-staff/instructors-guide/incomplete-grades/">CAS Policy</a>.</li>
+<li><strong>Note:</strong> <u>Optional homework problems do not count towards your course grade</u>, but we will look at how you did on them if you ask for a recommendation letter.</li>
+</ul>
+<hr />
+<h2 id="regrade-policy">Regrade Policy</h2>
+<ul>
+<li>Regrade requests can be submitted up to one week (7 days) after grades for a given assignment have been posted (except the final exam).</li>
+<li>You must request a regrade via Gradescope, <em><strong>NOT</strong> through email</em>.</li>
+<li>When we regrade a problem, your score may go up or down.</li>
+</ul>
+<hr />
+<h2 id="ai-policy">AI Policy</h2>
+<ul>
+<li>As stated above, you may not use large language models like ChatGPT or Gemini to provide homework solutions. However, you may use them to help clarify concepts, discuss homework problems <em>after you have submitted and the deadline has passed</em>, or similar. Be wary, though, of hallucinations. It is good to double check any information you receive from LLMs with a reliable source.</li>
+</ul>
+<hr />
+<h2 id="miscellaneous">Miscellaneous</h2>
+<p><strong>LaTeX resources</strong></p>
+<ul>
+<li><a href="http://pages.uoregon.edu/koch/texshop/">TexShop</a> is a latex editor for the Mac platform;</li>
+<li><a href="http://www.texniccenter.org/">TexNiCenter</a> is a text editor for Windows;</li>
+<li><a href="https://www.overleaf.com/">Overleaf</a> is a web-based latex system (that allows you to avoid latex installation on your machine).</li>
+<li>Not so short <a href="https://tobi.oetiker.ch/lshort/lshort.pdf">intro to latex</a>;</li>
+<li>A <a href="http://www.tug.org/twg/mactex/tutorials/ltxprimer-1.0.pdf">latex tutorial</a>.</li>
+</ul>
+<p><strong>Homework template files</strong>: <a href="sample-hw-solution.tex">tex</a>, <a href="sample-hw-solution.pdf">pdf</a>, <a href="example-hw-image.jpg">jpg</a>.</p>
+<hr />
+<h2 id="faq">FAQ</h2>
+<p>Many common questions have already been answered. Before emailing, posting on Piazza, or asking in class, please try the following:</p>
+<ol>
+<li>
+<p><strong>Start with the syllabus.</strong> It answers an impressive number of questions about deadlines, policies, office hours, and grading. <strong>If you’re still unsure, feel free to consult an LLM.</strong> Copy-pasting the syllabus and asking “What is the policy on X?” is often faster than waiting for a reply—and helps keep Piazza focused on course content.</p>
+</li>
+<li>
+<p><strong>The course is taken as designed.</strong> Assignments and deadlines apply uniformly to everyone, except where formal accommodations are documented. See #1.</p>
+</li>
+<li>
+<p><strong>Missed a class?</strong> Something important was probably covered. Please check the posted materials and ask a classmate before reaching out.  See #1.</p>
+</li>
+<li>
+<p><strong>Dates and deadlines</strong> have been posted since Day 1. Keeping track of them is part of the course.  See #1.</p>
+</li>
+<li>
+<p><strong>Office hours exist!</strong> They’re a great place for questions about concepts, feedback, or anything not already answered in the syllabus.  See #1.</p>
+</li>
+<li>
+<p><strong>Extensions are not granted.</strong> Instead, the course includes "grace periods" for flexibility—please use them wisely.  See #1.</p>
+</li>
+</ol>
+<p>Reading the syllabus (or asking an LLM to summarize it for you) will save everyone time—including you.  See #1.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js"></script>
+        <script src="search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
+
+<!--
+MkDocs version : 1.6.1
+Build Date UTC : 2026-01-28 16:31:33.756599+00:00
+-->
