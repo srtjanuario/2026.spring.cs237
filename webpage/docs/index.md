@@ -288,8 +288,8 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td>TJ</td>
         </tr>
         <tr>
-            <td> <strong>Lec 11</strong><br> Thursday<br> Feb 26 </td>
-            <td>
+            <td style="background-color: LightYellow"> <strong>Lec 11: <u>Quiz 2</u></strong><br> Thursday<br> Feb 26 </td>
+            <td style="background-color: LightYellow"> 
                 Independent Events<br> 
                 Independence for Multiple Events <br>
                 <!-- <a href="./slides/cs237L11-annotated.pdf">[Slides with notes]</a><br>  -->
@@ -299,11 +299,11 @@ This schedule is subject, and likely, to change as we progress through the semes
                 <div class="agenda-item"> <span class="meta-label">Do:</span> hw06 out </div>
                 <div class="agenda-item"> Last Day to Drop Standard Courses (without a “W” grade) </div>
             </td>
-            <td>TJ</td>
+            <td style="background-color: LightYellow">TJ</td>
         </tr>
         <tr>
-            <td style="background-color: LightYellow"> <strong>Lec 12: <u>Quiz 2</u></strong><br> Tuesday<br> Mar 3 </td>
-            <td style="background-color: LightYellow"> 
+            <td> <strong>Lec 12:</strong><br> Tuesday<br> Mar 3 </td>
+            <td>
                 Independence for Random Variables<br>
                 Pairwise and Mutual Independence<br>
                 <a href="https://en.wikipedia.org/wiki/People_v._Collins">People v. Collins</a><br> 
@@ -314,7 +314,7 @@ This schedule is subject, and likely, to change as we progress through the semes
                 <div class="agenda-item"> <span class="meta-label">Watch:</span> <a
                         href="https://www.youtube.com/watch?v=rIjIcWeY1X0">Video</a> </div>
             </td>
-            <td style="background-color: LightYellow">TJ</td>
+            <td>TJ</td>
         </tr>
         <tr class="special-event">
             <td style="background-color: LightYellow;"> Thursday<br> Mar 5 </td>
