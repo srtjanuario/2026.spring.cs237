@@ -271,8 +271,13 @@ This schedule is subject, and likely, to change as we progress through the semes
             </td>
             <td>NK</td>
         </tr>
+        <tr class="special-event">
+            <td>Tuesday<br> Feb 24 </td>
+            <td style="text-align: center;"> ⛄ <strong>Snow day</strong> ❄️ </td>
+            <td></td>
+        </tr>
         <tr>
-            <td> <strong>Lec 10</strong><br> Tuesday<br> Feb 24 </td>
+            <td> <strong>Lec 10: <u>Quiz 2</u></strong><br> Thursday<br> Feb 26 </td>
             <td>
                 Product Rule<br> 
                 Law of Total Probability (generalization)<br> 
@@ -288,7 +293,7 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td>TJ</td>
         </tr>
         <tr>
-            <td style="background-color: LightYellow"> <strong>Lec 11: <u>Quiz 2</u></strong><br> Thursday<br> Feb 26 </td>
+            <td style="background-color: LightYellow"> <strong>Lec 11</strong><br> Tuesday<br> Mar 3 </td>
             <td style="background-color: LightYellow"> 
                 Independent Events<br> 
                 Independence for Multiple Events <br>
@@ -297,24 +302,8 @@ This schedule is subject, and likely, to change as we progress through the semes
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.18.7">LLM 18.7</a>, <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.18.8">LLM 18.8</a> </div>
                 <div class="agenda-item"> <span class="meta-label">Do:</span> hw06 out </div>
-                <div class="agenda-item"> Last Day to Drop Standard Courses (without a “W” grade) </div>
             </td>
             <td style="background-color: LightYellow">TJ</td>
-        </tr>
-        <tr>
-            <td> <strong>Lec 12:</strong><br> Tuesday<br> Mar 3 </td>
-            <td>
-                Independence for Random Variables<br>
-                Pairwise and Mutual Independence<br>
-                <a href="https://en.wikipedia.org/wiki/People_v._Collins">People v. Collins</a><br> 
-                <!-- <a href="./slides/cs237L12-annotated.pdf">[Slides with notes]</a> <br> -->
-                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
-                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.18.9">LLM 18.9</a>, <a
-                        href="https://www.probabilitycourse.com/chapter1/1_4_1_independence.php">P 1.4.1</a> </div>
-                <div class="agenda-item"> <span class="meta-label">Watch:</span> <a
-                        href="https://www.youtube.com/watch?v=rIjIcWeY1X0">Video</a> </div>
-            </td>
-            <td>TJ</td>
         </tr>
         <tr class="special-event">
             <td style="background-color: LightYellow;"> Thursday<br> Mar 5 </td>
@@ -339,7 +328,22 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td></td>
         </tr>
         <tr>
-            <td> <strong>Lec 13</strong><br> Tuesday<br> Mar 17 </td>
+            <td> <strong>Lec 12:</strong><br> Tuesday<br> Mar 17 </td>
+            <td>
+                Independence for Random Variables<br>
+                Pairwise and Mutual Independence<br>
+                <a href="https://en.wikipedia.org/wiki/People_v._Collins">People v. Collins</a><br> 
+                <!-- <a href="./slides/cs237L12-annotated.pdf">[Slides with notes]</a> <br> -->
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.18.9">LLM 18.9</a>, <a
+                        href="https://www.probabilitycourse.com/chapter1/1_4_1_independence.php">P 1.4.1</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Watch:</span> <a
+                        href="https://www.youtube.com/watch?v=rIjIcWeY1X0">Video</a> </div>
+            </td>
+            <td>NK</td>
+        </tr>
+        <tr>
+            <td> <strong>Lec 13</strong><br> Thursday<br> Mar 19 </td>
             <td>
             More Independence <br> 
             Expected value of a random variable<br>
@@ -353,7 +357,7 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td>NK</td>
         </tr>
         <tr>
-            <td> <strong>Lec 14</strong><br> Thursday<br> Mar 19 </td>
+            <td> <strong>Lec 14</strong><br> Tuesday<br> Mar 24 </td>
             <td>
                 Linearity of expectation<br>
                 Law of the unconscious statistician<br> 
@@ -368,7 +372,7 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td>NK</td>
         </tr>
         <tr>
-            <td> <strong>Lec 15</strong><br> Tuesday<br> Mar 24 </td>
+            <td> <strong>Lec 15</strong><br> Thursday<br> Mar 26 </td>
             <td>
                 Conditional expectation<br> 
                 Linearity of conditional expectation <br>
@@ -382,7 +386,7 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td>NK</td>
         </tr>
         <tr>
-            <td> <strong>Lec 16</strong><br> Thursday<br> Mar 26 </td>
+            <td> <strong>Lec 16</strong><br> Tuesday<br> Mar 31 </td>
             <td>
                 Variance<br> 
                 Standard deviation<br> 
@@ -394,10 +398,10 @@ This schedule is subject, and likely, to change as we progress through the semes
                 <div class="agenda-item"> <span class="meta-label">Watch:</span> <a
                         href="https://www.probabilitycourse.com/videos/chapter3/video3_9.php">Video</a> </div>
             </td>
-            <td>NK</td>
+            <td>TJ</td>
         </tr>
         <tr>
-            <td style="background-color: LightYellow"> <strong>Lec 17</strong><br> Tuesday<br> Mar 31 </td>
+            <td style="background-color: LightYellow"> <strong>Lec 17</strong><br> Thursday<br> Apr 2 </td>
             <td style="background-color: LightYellow">
             Discrete distributions: <br>
             - Bernoulli, <br>
@@ -412,7 +416,7 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td style="background-color: LightYellow">TJ</td>
         </tr>
         <tr>
-            <td> <strong>Lec 18</strong><br> Thursday<br> Apr 2 </td>
+            <td> <strong>Lec 18</strong><br> Tuesday<br> Apr 7 </td>
             <td>
                 Discrete distributions: <br>
                 - Geometric and its properties <br>
@@ -421,10 +425,10 @@ This schedule is subject, and likely, to change as we progress through the semes
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.5">LLM 19.5.4</a> </div>
                 <div class="agenda-item"> <span class="meta-label">Do:</span> hw09 out </div>
             </td>
-            <td>TJ</td>
+            <td>NK</td>
         </tr>
         <tr>
-            <td> <strong>Lec 19: <u>Quiz 3</u></strong><br> Tuesday<br> Apr 7 </td>
+            <td> <strong>Lec 19: <u>Quiz 3</u></strong><br> Thursday<br> Apr 9 </td>
             <td>
                 Reservoir sampling<br> 
                 Negative Binomial <br>
@@ -436,7 +440,7 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td>NK</td>
         </tr>
         <tr>
-            <td> <strong>Lec 20</strong><br> Thursday<br> Apr 9 </td>
+            <td> <strong>Lec 20</strong><br> Tuesday<br> Apr 14 </td>
             <td>
                 Markov inequality<br> 
                 Chebyshev inequality<br>
@@ -450,7 +454,7 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td>NK</td>
         </tr>
         <tr>
-            <td> <strong>Lec 21</strong><br> Tuesday<br> Apr 14 </td>
+            <td> <strong>Lec 21</strong><br> Thursday<br> Apr 16 </td>
             <td>
                 Applications of Markov and Chebyshev's inequalities<br> 
                 Continuous Uniform Distribution <br>
@@ -461,7 +465,7 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td>NK</td>
         </tr>
         <tr>
-            <td> <strong>Lec 22</strong><br> Thursday<br> Apr 16 </td>
+            <td> <strong>Lec 22</strong><br> Tuesday<br> Apr 21 </td>
             <td>
                 Normal distribution <br>
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
@@ -472,7 +476,7 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td>NK</td>
         </tr>
         <tr>
-            <td> <strong>Lec 23</strong><br> Tuesday<br> Apr 21 </td>
+            <td> <strong>Lec 23</strong><br> Thursday<br> Apr 23 </td>
             <td>
                 Exponential distribution <br>
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
@@ -483,7 +487,7 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td>NK</td>
         </tr>
         <tr>
-            <td> <strong>Lec 24</strong><br> Thursday<br> Apr 23 </td>
+            <td> <strong>Lec 24</strong><br> Tuesday<br> Apr 28 </td>
             <td>
                 Poisson Process <br>
                 Poisson Distribution <br>
@@ -495,7 +499,7 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td>NK</td>
         </tr>
         <tr>
-            <td style="background-color: LightYellow"> <strong>Lec 25: <u>Quiz 4</u></strong><br> Tuesday<br> Apr 28 </td>
+            <td style="background-color: LightYellow"> <strong>Lec 25: <u>Quiz 4</u></strong><br> Thursday<br> Apr 30 </td>
             <td style="background-color: LightYellow">
                 Central Limit Theorem <br>
                 Law of Large Numbers <br>
@@ -505,7 +509,7 @@ This schedule is subject, and likely, to change as we progress through the semes
             </td>
             <td style="background-color: LightYellow">NK</td>
         </tr>
-        <tr>
+        <!-- <tr>
             <td> <strong>Lec 26</strong><br> Thursday<br> Apr 30 </td>
             <td>
                 Applied probability <br>
@@ -516,7 +520,7 @@ This schedule is subject, and likely, to change as we progress through the semes
                 <div class="agenda-item"> <span class="meta-label">Do:</span> Final Practice Solutions out </div>
             </td>
             <td>NK</td>
-        </tr>
+        </tr> -->
         <tr class="special-event">
             <td> Friday<br> May 1 </td>
             <td> Study Period begins - no discussion sections</td>
