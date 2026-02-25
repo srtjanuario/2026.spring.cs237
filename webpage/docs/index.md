@@ -289,6 +289,7 @@ This schedule is subject, and likely, to change as we progress through the semes
                 <div class="agenda-item"> <span class="meta-label">Watch:</span> <a
                         href="https://www.youtube.com/watch?v=HZGCoVF3YvM">The geometry of changing beliefs</a>, <a
                         href="https://www.youtube.com/watch?v=R13BD8qKeTg">Veritasium</a> </div>
+                <br> Do: hw06 out
             </td>
             <td>TJ</td>
         </tr>
@@ -301,7 +302,7 @@ This schedule is subject, and likely, to change as we progress through the semes
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.18.7">LLM 18.7</a>, <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.18.8">LLM 18.8</a> </div>
-                <div class="agenda-item"> <span class="meta-label">Do:</span> hw06 out </div>
+                 
             </td>
             <td style="background-color: LightYellow">TJ</td>
         </tr>
