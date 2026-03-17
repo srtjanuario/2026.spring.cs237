@@ -298,6 +298,7 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td style="background-color: LightYellow"> 
                 Independent Events<br> 
                 Independence for Multiple Events <br>
+                <a href="https://en.wikipedia.org/wiki/People_v._Collins">People v. Collins</a><br> 
                 <!-- <a href="./slides/cs237L11-annotated.pdf">[Slides with notes]</a><br>  -->
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.18.7">LLM 18.7</a>, <a
@@ -332,8 +333,7 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td> <strong>Lec 12:</strong><br> Tuesday<br> Mar 17 </td>
             <td>
                 Independence for Random Variables<br>
-                Pairwise and Mutual Independence<br>
-                <a href="https://en.wikipedia.org/wiki/People_v._Collins">People v. Collins</a><br> 
+                Expected value of a random variable<br>
                 <!-- <a href="./slides/cs237L12-annotated.pdf">[Slides with notes]</a> <br> -->
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.18.9">LLM 18.9</a>, <a
@@ -346,14 +346,12 @@ This schedule is subject, and likely, to change as we progress through the semes
         <tr>
             <td> <strong>Lec 13</strong><br> Thursday<br> Mar 19 </td>
             <td>
-            More Independence <br> 
-            Expected value of a random variable<br>
-            Infinite sums<br> 
+            Linearity of Expectation<br>
                 <!-- <a href="./slides/cs237L13-annotated.pdf">[Slides with notes]</a> -->
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.4">LLM 19.4</a>, <a
                         href="https://www.probabilitycourse.com/chapter3/3_2_2_expectation.php">P 3.2.2</a> </div>
-                <div class="agenda-item"> <span class="meta-label">Do:</span> Midterm practice problems out </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> hw07 out </div>
             </td>
             <td>NK</td>
         </tr>
@@ -367,8 +365,6 @@ This schedule is subject, and likely, to change as we progress through the semes
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.5">LLM 19.5</a>, <a
                         href="https://www.probabilitycourse.com/chapter6/6_1_2_sums_random_variables.php">P 6.1.2</a>
                 </div>
-                <div class="agenda-item"> <span class="meta-label">Do:</span> hw07 out </div>
-                <div class="agenda-item"> <span class="meta-label">Do:</span> Midterm practice solutions out </div>
             </td>
             <td>NK</td>
         </tr>
@@ -383,6 +379,7 @@ This schedule is subject, and likely, to change as we progress through the semes
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.4">LLM 19.4.1</a>, <a
                         href="https://www.probabilitycourse.com/chapter3/3_2_3_functions_random_var.php">P 3.2.3</a>, <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.4">LLM 19.4.6</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> hw08 out </div>
             </td>
             <td>NK</td>
         </tr>
@@ -395,7 +392,6 @@ This schedule is subject, and likely, to change as we progress through the semes
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.3">LLM 20.3</a>, <a
                         href="https://www.probabilitycourse.com/chapter3/3_2_4_variance.php">P 3.2.4</a> </div>
-                <div class="agenda-item"> <span class="meta-label">Do:</span> hw08 out </div>
                 <div class="agenda-item"> <span class="meta-label">Watch:</span> <a
                         href="https://www.probabilitycourse.com/videos/chapter3/video3_9.php">Video</a> </div>
             </td>
@@ -413,6 +409,7 @@ This schedule is subject, and likely, to change as we progress through the semes
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.3">LLM 19.3.2</a>, <a
                         href="https://www.probabilitycourse.com/chapter3/3_1_5_special_discrete_distr.php">P 3.1.5</a>
                 </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> hw09 out </div>
             </td>
             <td style="background-color: LightYellow">TJ</td>
         </tr>
@@ -424,7 +421,6 @@ This schedule is subject, and likely, to change as we progress through the semes
                 - Coupon collector's problem<br> 
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.5">LLM 19.5.4</a> </div>
-                <div class="agenda-item"> <span class="meta-label">Do:</span> hw09 out </div>
             </td>
             <td>NK</td>
         </tr>
@@ -437,6 +433,7 @@ This schedule is subject, and likely, to change as we progress through the semes
                         href="https://en.wikipedia.org/wiki/Reservoir_sampling">Wikipedia</a> </div>
                 <div class="agenda-item"> <span class="meta-label">Watch:</span> <a
                         href="https://www.youtube.com/watch?v=BstloCx8KDk">Stand-up Maths</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> hw10 out </div>
             </td>
             <td>NK</td>
         </tr>
@@ -450,7 +447,6 @@ This schedule is subject, and likely, to change as we progress through the semes
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.2">LLM 20.2</a>, <a
                         href="https://www.probabilitycourse.com/chapter6/6_2_2_markov_chebyshev_inequalities.php">P
                         6.2.2</a> </div>
-                <div class="agenda-item"> <span class="meta-label">Do:</span> hw10 out </div>
             </td>
             <td>NK</td>
         </tr>
@@ -462,6 +458,7 @@ This schedule is subject, and likely, to change as we progress through the semes
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.1">LLM 20.1.1</a>, <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.2">LLM 20.2.1</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> hw11 out </div>
             </td>
             <td>NK</td>
         </tr>
@@ -472,7 +469,6 @@ This schedule is subject, and likely, to change as we progress through the semes
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.2">LLM 20.2.2</a>, <a
                         href="https://www.probabilitycourse.com/chapter4/4_2_3_normal.php">P 4.2.3</a> </div>
-                <div class="agenda-item"> <span class="meta-label">Do:</span> hw11 out </div>
             </td>
             <td>NK</td>
         </tr>
@@ -484,6 +480,7 @@ This schedule is subject, and likely, to change as we progress through the semes
                         href="https://www.probabilitycourse.com/chapter4/4_2_2_exponential.php">P 4.2.2</a>, <a
                         href="https://www.probabilitycourse.com/chapter11/11_1_2_basic_concepts_of_the_poisson_process.php">P
                         11.1.2</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> hw12 out<br> Final Practice Problems out
             </td>
             <td>NK</td>
         </tr>
@@ -495,7 +492,6 @@ This schedule is subject, and likely, to change as we progress through the semes
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://www.probabilitycourse.com/chapter11/11_1_2_basic_concepts_of_the_poisson_process.php">P
                         11.1.2</a> </div>
-                <div class="agenda-item"> <span class="meta-label">Do:</span> hw12 out<br> Final Practice Problems out
             </td>
             <td>NK</td>
         </tr>
