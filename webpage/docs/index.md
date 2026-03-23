@@ -347,6 +347,8 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td> <strong>Lec 13</strong><br> Thursday<br> Mar 19 </td>
             <td>
             Linearity of Expectation<br>
+            Infinite Sums<br>
+            Law of the unconscious statistician<br> 
                 <!-- <a href="./slides/cs237L13-annotated.pdf">[Slides with notes]</a> -->
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.4">LLM 19.4</a>, <a
@@ -358,33 +360,18 @@ This schedule is subject, and likely, to change as we progress through the semes
         <tr>
             <td> <strong>Lec 14</strong><br> Tuesday<br> Mar 24 </td>
             <td>
-                Linearity of expectation<br>
-                Law of the unconscious statistician<br> 
-                <!-- <a href="./slides/cs237L14-annotated.pdf">[Slides with notes]</a> <br> -->
-                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
-                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.5">LLM 19.5</a>, <a
-                        href="https://www.probabilitycourse.com/chapter6/6_1_2_sums_random_variables.php">P 6.1.2</a>
-                </div>
-            </td>
-            <td>NK</td>
-        </tr>
-        <tr>
-            <td> <strong>Lec 15</strong><br> Thursday<br> Mar 26 </td>
-            <td>
                 Conditional expectation<br> 
-                Linearity of conditional expectation <br>
                 Law of total expectation<br> 
                 <!-- <a href="./slides/cs237L15-annotated.pdf">[Slides with notes]</a> <br> -->
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.4">LLM 19.4.1</a>, <a
                         href="https://www.probabilitycourse.com/chapter3/3_2_3_functions_random_var.php">P 3.2.3</a>, <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.4">LLM 19.4.6</a> </div>
-                <div class="agenda-item"> <span class="meta-label">Do:</span> hw08 out </div>
             </td>
             <td>NK</td>
         </tr>
         <tr>
-            <td> <strong>Lec 16</strong><br> Tuesday<br> Mar 31 </td>
+            <td> <strong>Lec 15</strong><br> Thursday<br> Mar 26 </td>
             <td>
                 Variance<br> 
                 Standard deviation<br> 
@@ -394,12 +381,13 @@ This schedule is subject, and likely, to change as we progress through the semes
                         href="https://www.probabilitycourse.com/chapter3/3_2_4_variance.php">P 3.2.4</a> </div>
                 <div class="agenda-item"> <span class="meta-label">Watch:</span> <a
                         href="https://www.probabilitycourse.com/videos/chapter3/video3_9.php">Video</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> hw08 out </div>
             </td>
-            <td>TJ</td>
+            <td>NK</td>
         </tr>
         <tr>
-            <td style="background-color: LightYellow"> <strong>Lec 17</strong><br> Thursday<br> Apr 2 </td>
-            <td style="background-color: LightYellow">
+            <td> <strong>Lec 16</strong><br> Tuesday<br> Mar 31 </td>
+            <td>
             Discrete distributions: <br>
             - Bernoulli, <br>
             - Uniform, <br>
@@ -409,23 +397,23 @@ This schedule is subject, and likely, to change as we progress through the semes
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.3">LLM 19.3.2</a>, <a
                         href="https://www.probabilitycourse.com/chapter3/3_1_5_special_discrete_distr.php">P 3.1.5</a>
                 </div>
-                <div class="agenda-item"> <span class="meta-label">Do:</span> hw09 out </div>
             </td>
-            <td style="background-color: LightYellow">TJ</td>
+            <td>TJ</td>
         </tr>
         <tr>
-            <td> <strong>Lec 18</strong><br> Tuesday<br> Apr 7 </td>
-            <td>
+            <td style="background-color: LightYellow"> <strong>Lec 17</strong><br> Thursday<br> Apr 2 </td>
+            <td style="background-color: LightYellow">
                 Discrete distributions: <br>
                 - Geometric and its properties <br>
                 - Coupon collector's problem<br> 
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.5">LLM 19.5.4</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> hw09 out </div>
             </td>
-            <td>NK</td>
+            <td style="background-color: LightYellow">TJ</td>
         </tr>
         <tr>
-            <td> <strong>Lec 19: <u>Quiz 3</u></strong><br> Thursday<br> Apr 9 </td>
+            <td> <strong>Lec 18: <u>Quiz 3</u></strong><br> Tuesday<br> Apr 7 </td>
             <td>
                 Reservoir sampling<br> 
                 Negative Binomial <br>
@@ -433,12 +421,11 @@ This schedule is subject, and likely, to change as we progress through the semes
                         href="https://en.wikipedia.org/wiki/Reservoir_sampling">Wikipedia</a> </div>
                 <div class="agenda-item"> <span class="meta-label">Watch:</span> <a
                         href="https://www.youtube.com/watch?v=BstloCx8KDk">Stand-up Maths</a> </div>
-                <div class="agenda-item"> <span class="meta-label">Do:</span> hw10 out </div>
             </td>
             <td>NK</td>
         </tr>
         <tr>
-            <td> <strong>Lec 20</strong><br> Tuesday<br> Apr 14 </td>
+            <td> <strong>Lec 19</strong><br> Thursday<br> Apr 9 </td>
             <td>
                 Markov inequality<br> 
                 Chebyshev inequality<br>
@@ -447,17 +434,28 @@ This schedule is subject, and likely, to change as we progress through the semes
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.2">LLM 20.2</a>, <a
                         href="https://www.probabilitycourse.com/chapter6/6_2_2_markov_chebyshev_inequalities.php">P
                         6.2.2</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> hw10 out </div>
             </td>
             <td>NK</td>
         </tr>
         <tr>
-            <td> <strong>Lec 21</strong><br> Thursday<br> Apr 16 </td>
+            <td> <strong>Lec 20</strong><br> Tuesday<br> Apr 14 </td>
             <td>
                 Applications of Markov and Chebyshev's inequalities<br> 
                 Continuous Uniform Distribution <br>
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.1">LLM 20.1.1</a>, <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.2">LLM 20.2.1</a> </div>
+            </td>
+            <td>NK</td>
+        </tr>
+        <tr>
+            <td> <strong>Lec 21</strong><br> Thursday<br> Apr 16 </td>
+            <td>
+                Normal distribution <br>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.2">LLM 20.2.2</a>, <a
+                        href="https://www.probabilitycourse.com/chapter4/4_2_3_normal.php">P 4.2.3</a> </div>
                 <div class="agenda-item"> <span class="meta-label">Do:</span> hw11 out </div>
             </td>
             <td>NK</td>
@@ -465,19 +463,20 @@ This schedule is subject, and likely, to change as we progress through the semes
         <tr>
             <td> <strong>Lec 22</strong><br> Tuesday<br> Apr 21 </td>
             <td>
-                Normal distribution <br>
+                Exponential distribution <br>
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
-                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.2">LLM 20.2.2</a>, <a
-                        href="https://www.probabilitycourse.com/chapter4/4_2_3_normal.php">P 4.2.3</a> </div>
+                        href="https://www.probabilitycourse.com/chapter4/4_2_2_exponential.php">P 4.2.2</a>, <a
+                        href="https://www.probabilitycourse.com/chapter11/11_1_2_basic_concepts_of_the_poisson_process.php">P
+                        11.1.2</a> </div>
             </td>
             <td>NK</td>
         </tr>
         <tr>
             <td> <strong>Lec 23</strong><br> Thursday<br> Apr 23 </td>
             <td>
-                Exponential distribution <br>
+                Poisson Process <br>
+                Poisson Distribution <br>
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
-                        href="https://www.probabilitycourse.com/chapter4/4_2_2_exponential.php">P 4.2.2</a>, <a
                         href="https://www.probabilitycourse.com/chapter11/11_1_2_basic_concepts_of_the_poisson_process.php">P
                         11.1.2</a> </div>
                 <div class="agenda-item"> <span class="meta-label">Do:</span> hw12 out<br> Final Practice Problems out
@@ -485,23 +484,19 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td>NK</td>
         </tr>
         <tr>
-            <td> <strong>Lec 24</strong><br> Tuesday<br> Apr 28 </td>
+            <td> <strong>Lec 24: <u>Quiz 4</u></strong><br> Tuesday<br> Apr 28 </td>
             <td>
-                Poisson Process <br>
-                Poisson Distribution <br>
-                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
-                        href="https://www.probabilitycourse.com/chapter11/11_1_2_basic_concepts_of_the_poisson_process.php">P
-                        11.1.2</a> </div>
+                Central Limit Theorem <br>
+                Law of Large Numbers <br>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> CLRS 8.4 </div>
             </td>
             <td>NK</td>
         </tr>
         <tr>
-            <td style="background-color: LightYellow"> <strong>Lec 25: <u>Quiz 4</u></strong><br> Thursday<br> Apr 30 </td>
+            <td style="background-color: LightYellow"> <strong>Lec 25</strong><br> Thursday<br> Apr 30 </td>
             <td style="background-color: LightYellow">
-                Central Limit Theorem <br>
-                Law of Large Numbers <br>
+		Applied Probability<br>
                 <a href="https://my-bu.bluera.com/">Course evaluation</a> 
-                <div class="agenda-item"> <span class="meta-label">Read:</span> CLRS 8.4 </div>
                 </div>
             </td>
             <td style="background-color: LightYellow">NK</td>
