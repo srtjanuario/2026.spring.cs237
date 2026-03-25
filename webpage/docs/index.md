@@ -360,8 +360,8 @@ This schedule is subject, and likely, to change as we progress through the semes
         <tr>
             <td> <strong>Lec 14</strong><br> Tuesday<br> Mar 24 </td>
             <td>
+		Expectation of Products<br>
                 Conditional expectation<br> 
-                Law of total expectation<br> 
                 <!-- <a href="./slides/cs237L15-annotated.pdf">[Slides with notes]</a> <br> -->
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.4">LLM 19.4.1</a>, <a
@@ -373,9 +373,9 @@ This schedule is subject, and likely, to change as we progress through the semes
         <tr>
             <td> <strong>Lec 15</strong><br> Thursday<br> Mar 26 </td>
             <td>
+		Law of Total Expectation<br>
                 Variance<br> 
                 Standard deviation<br> 
-                Variance properties<br>
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.3">LLM 20.3</a>, <a
                         href="https://www.probabilitycourse.com/chapter3/3_2_4_variance.php">P 3.2.4</a> </div>
