@@ -388,6 +388,7 @@ This schedule is subject, and likely, to change as we progress through the semes
         <tr>
             <td> <strong>Lec 16</strong><br> Tuesday<br> Mar 31 </td>
             <td>
+	    Properties of Variance<br>
             Discrete distributions: <br>
             - Bernoulli, <br>
             - Uniform, <br>
