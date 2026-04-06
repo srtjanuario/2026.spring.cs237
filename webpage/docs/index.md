@@ -406,7 +406,6 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td style="background-color: LightYellow">
                 Discrete distributions: <br>
                 - Geometric and its properties <br>
-                - Coupon collector's problem<br> 
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.5">LLM 19.5.4</a> </div>
                 <div class="agenda-item"> <span class="meta-label">Do:</span> hw09 out </div>
@@ -416,6 +415,7 @@ This schedule is subject, and likely, to change as we progress through the semes
         <tr>
             <td> <strong>Lec 18: <u>Quiz 3</u></strong><br> Tuesday<br> Apr 7 </td>
             <td>
+		Coupon Collector<br>
                 Reservoir sampling<br> 
                 Negative Binomial <br>
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
