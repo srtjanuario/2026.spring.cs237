@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width">
+
+
+<link rel="icon" type="image/x-icon" href="./favicon.jpg">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" integrity="sha384-nB0miv6/jRmo5UMMR1wu3Gz6NLsoTkbqJghGIsx//Rlm+ZU03BU6SQNC66uf4l5+" crossorigin="anonymous">
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" integrity="sha384-7zkQWkzuo3B5mTepMUcHkMB5jZaolc2xDwL6VFqjFALcbeS9Ggm/Yr2r3Dy4lfFg" crossorigin="anonymous"></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+</head>
+
+
+<body><style>
+img { max-width: 100%; }
+tr { page-break-inside:avoid; page-break-after:auto }
+td { page-break-after:auto; }
+td { border: 1px solid #ccc; padding: 1em; }
+.playImage { display: none; }
+</style><table cellspacing=10 width=100%><tr><td width="33.333333333333336%"><center><div class="front">
+Bernoulli and Binomial distributions
+</div>
+<div class="front">
+<hr id=answer>
+</div>
+The Bernoulli distribution, or \(\text{Ber}(p)\): for \(X \sim \text{Ber}(p)\), we have \(X \in \{0,1\}\),&nbsp;\(\mathbb{P}[X=1]=p\),&nbsp;\(\mathbb{E}[X]=p\), and \(\text{Var}(X)=p(1-p)\).<br><br>The Binomial distribution, or&nbsp;\(\text{Bin}(n,p)\): this denotes the sum of \(n\) Bernoulli random variables with success probability \(p\). For \(X \sim \text{Bin}(n,p)\), \(\mathbb{E}[X]=np\) and \(\text{Var}(X)=np(1-p)\). The PMF of \(X\) is&nbsp;\(\mathbb{P}[X=k] = {n \choose k}p^k(1-p)^{n-k}\)&nbsp;for all \(k \ge 0\).<br><br>These are both discrete distributions.</center></td><td width="33.333333333333336%"><center><div class="front">
+Chebyshev's Inequality
+</div>
+<div class="front">
+<hr id=answer>
+</div>
+Given a random variable&nbsp;\(X\), \(\mathbb{P}[|X - \mathbb{E}[X]| \ge k] \le \frac{\text{Var}(X)}{k^2}\). Unlike Markov, \(X\) does not have to be non-negative.&nbsp;<br><br>&nbsp;A slightly easier version to remember:&nbsp;\(\mathbb{P}[|X-\mathbb{E}[X]| \ge k\cdot \sigma] \le \frac{1}{k^2}\), where&nbsp;\(\sigma\)&nbsp;is the standard deviation of&nbsp;\(k\). In words: the probability \(X\) is more than \(k\) standard deviations away from its mean is at most \(\frac{1}{k^2}\).&nbsp;</center></td><td width="33.333333333333336%"><center><div class="front">
+Discrete and Continuous Uniform Distributions
+</div>
+<div class="front">
+<hr id=answer>
+</div>
+Discrete: denoted \(\text{Unif}(\{a,\dots,b\})\) to mean a uniform integer between \(a\) and \(b\). For \(X \sim \text{Unif}(\{a,\dots,b\})\)&nbsp;we have&nbsp;\(\mathbb{E}[X] = \frac{a+b}{2}\) and \(\text{Var}(X) = \frac{(b-a+1)^2-1}{12}\). You can also define this for any finite set, in which case the expectation and variance change but can be computed in a straightforward way.<br><br>Uniform: denoted \(\text{Unif}([a,b])\). For \(X \sim \text{Unif}([a,b])\) we have&nbsp;\(\mathbb{E}[X] = \frac{a+b}{2}\) and \(\text{Var}(X) = \frac{(b-a)^2}{12}\). The PDF is \(f(x) = \frac{1}{b-a}\) for \(x \in [a,b]\) and 0 elsewhere, and the CDF is \(F(x) = \frac{1}{b-a} (x-a)\) for \(x \in [a,b]\)&nbsp;(it is 0 below \(a\), and 1 above \(b\)).&nbsp;</center></td></tr><tr><td width="33.333333333333336%"><center><div class="front">
+Exponential Distribution
+</div>
+<div class="front">
+<hr id=answer>
+</div>
+\(\text{Exp}(\lambda)\)&nbsp;denotes the exponential distribution with <b>rate</b> \(\lambda\). This is the continuous analog of \(\text{Geo}(p=\lambda)\). It measures the (continuous) time until an event occurs, where the event occurs \(\lambda\) times per time unit in expectation. The expectation is&nbsp;\(\frac{1}{\lambda}\)&nbsp;and the variance is&nbsp;\(\frac{1}{\lambda^2}\). <br><br>For example, if we expect an event to occur twice per second in expectation, then \(\text{Exp}(2)\) is a random variable measuring how long it will take until the event occurs, and we expect to wait only half a time unit. Like the geometric distribution, the exponential distribution is memoryless.&nbsp;<br><br>The PDF is \(f(x) = \lambda e^{-\lambda x}\) for \(x \ge 0\) and 0 elsewhere. The CDF is \(F(x) = 1- e^{-\lambda x}\).&nbsp;</center></td><td width="33.333333333333336%"><center><div class="front">
+Geometric and Negative Binomial distributions
+</div>
+<div class="front">
+<hr id=answer>
+</div>
+\(\text{Geo}(p)\), or the geometric distribution. For \(X \sim \text{Geo}(p)\), we&nbsp;have&nbsp;\(X \in \mathbb{Z}_{\ge 0}\). This models the number of samples from \(\text{Ber}(p)\)&nbsp;until a success. \(\mathbb{E}[X]=\frac{1}{p}\), \(\text{Var}(X)=\frac{1-p}{p^2}\). The PMF is \(\mathbb{P}[X=k]=(1-p)^{k-1}p\)&nbsp;because we need \(k-1\) failures followed by a success.<br><br>\(\text{NB}(r,p)\), or the negative binomial distribution, denotes the number of samples from a Bernoulli distribution until \(r\) successes. This is the sum of \(r\) geometric random variables, so \(\mathbb{E}[X] = \frac{r}{p}\), \(\text{Var}(X) = \frac{r(1-p)}{p^2}\). The PMF is \(\mathbb{P}[X=k] = {k-1 \choose r-1}p^r(1-p)^{k-r}\)&nbsp;because we need \(r-1\) successes somewhere in the first \(k-1\) samples, and then a success.<br><br>These are both discrete distributions.</center></td><td width="33.333333333333336%"><center><div class="front">
+Law of Large Numbers (and weak vs strong)
+</div>
+<div class="front">
+<hr id=answer>
+</div>
+Let&nbsp;\(X_1,X_2,\dots, X_n\)&nbsp;be a sequence of independent and identically distributed random variables with&nbsp;\(\mathbb{E}[X_i] = \mu\). Then if \(\overline{X_n} = \frac{1}{n}\sum_{i=1}^n X_i\) is the sample mean, \(\overline{X_n} \to \mu\) as \(n \to \infty\).&nbsp;<br><br>There are two ways to state this convergence. One is the weak law, which is the only one you need to know. This says that for all \(\epsilon &gt; 0\), \(\lim_{n \to \infty} \mathbb{P}[|\overline{X_n}-\mu| &gt; \epsilon] = 0\).&nbsp;<br><br>------&nbsp;<br>The other is the strong law, which is in fact slightly different. You do not need to know this, but it can be stated \(\mathbb{P}[\lim_{n \to\infty} \overline{X_n} = \mu] = 1\). This means that the probability that the sequence of random variables obtained converges to \(\mu\) is 1. There can be some sequences that do not converge, for example the sequence \(0,0,0,\dots\) for independent Bernoullis with success probabablity great than 1, but the strong law says the probability of obtaining such a sequence is 0.&nbsp;<br><br>The weak law does not preclude the possibility that every realization of the sequence \(X_1,X_2,\dots\) you obtain does not have \(\mu\) as a limit: it could jump up to values much larger than \(\mu\) infinitely many times. The strong law says that with probability 1 this does not occur.&nbsp;</center></td></tr><tr><td width="33.333333333333336%"><center><div class="front">
+Markov's Inequality
+</div>
+<div class="front">
+<hr id=answer>
+</div>
+Given a non-negative random variable \(X\), we have \(\mathbb{P}[X \ge k] \le \frac{\mathbb{E}[X]}{k}\).&nbsp;<br><br>Another slightly more memorable way to write this is&nbsp;\(\mathbb{P}[X \ge k \cdot \mathbb{E}[X]] \le \frac{1}{k}\), or in words, the probability a non-negative random variable is at least \(k\) times its expectation is at most \(\frac{1}{k}\).&nbsp;</center></td><td width="33.333333333333336%"><center><div class="front">
+Memoryless Property of a Random Variable and the two examples
+</div>
+<div class="front">
+<hr id=answer>
+</div>
+A random variable \(X\) is memoryless if \(\mathbb{P}[X &gt; n+k \mid X \ge k] = \mathbb{P}[X &gt; n]\) for all \(k \ge 0\). <br><br>A discrete random variable is memoryless if and only if it is a geometric random variable. A continuous random variable is memoryless if and only if it is an exponential random variable.&nbsp;</center></td><td width="33.333333333333336%"><center><div class="front">
+Normal Distribution
+</div>
+<div class="front">
+<hr id=answer>
+</div>
+The normal distribution is denoted \({\cal N}(\mu,\sigma^2)\) where \(\mu\) is the expectation and \(\sigma\) is the standard deviation (so that \(\sigma^2\) is the variance).&nbsp;<br><br>The PDF is \(f(x) =\frac{1}{\sqrt{2\pi\sigma^2}}e^{\frac{(x-\mu)^2}{2\sigma^2}}\), and the CDF is \(\int_{-\infty}^x f(x)dx\). The CDF of the "standard normal" is denoted \(\Phi\) so that \(\Phi(x)\) is the probability \(X \sim {\cal N}(0,1)\) is at most \(x\). The standard normal is the normal distribution with mean 0 and variance 1.&nbsp;<br><br>So, write the CDF of \({\cal N}(\mu,\sigma^2)\) as \(\Phi(\frac{x-\mu}{\sigma})\), since the random variable \(\frac{1}{\sigma}(X-\mu)\) for \(X \sim {\cal N}(\mu,\sigma^2)\) is normal with mean 0 and variance 1.<br><br>The normal distribution is the "smooth" version of the binomial distribution.</center></td></tr><tr><td width="33.333333333333336%"><center><div class="front">
+Poisson Distribution
+</div>
+<div class="front">
+<hr id=answer>
+</div>
+\(\text{Poiss}(\lambda)\) is a discrete distribution measuring the number of events occuring in an interval of time, where in expectation \(\lambda\) events occur in that interval. For \(X \sim \text{Poiss}(\lambda)\), we have&nbsp;\(\mathbb{E}(X) = \lambda\)&nbsp;and&nbsp;\(\text{Var}(X) = \lambda\). The PMF of \(X\) is&nbsp;\(\mathbb{P}[X=k] = e^{-\lambda} \frac{\lambda^k}{k!}\).&nbsp;<br><br>The Poisson distribution is in fact the limit of a Binomial distribution. In particular, \(\lim_{n \to \infty} \text{Bin}(n,\frac{\lambda}{n}) = \text{Poiss}(\lambda)\). So, it is a good approximation for Binomial distributions in which \(n\) is large (say, at least 100) and \(p\) is small (say, at most 5%).&nbsp;</center></td><td width="33.333333333333336%"><center><div class="front">
+The Central Limit Theorem
+</div>
+<div class="front">
+<hr id=answer>
+</div>
+Let \(D\) be any distribution with mean \(\mu\) and variance \(\sigma^2\). Then, the distribution of \(\sum_{i=1}^n X_i\)&nbsp;will look like a normal distribution near the mean. In particular, if we make the mean 0 and the variance 1, by sampling \(X_i-\mu\) instead and dividing the sum by \(\frac{1}{\sqrt{n}}\), then the distribution of this sum of random variables will approach&nbsp;\({\cal N}(0,1)\).&nbsp;<br><br>So, formally, the theorem is usually stated like this. Let \(Y_n = \frac{1}{\sqrt{\sigma^2n}}\sum_{i=1}^n (X_i-\mu)\). Then, \(\text{Law}(\lim_{n \to \infty} Y_n) = {\cal N}(0,1)\), where \(\text{Law}(X)\) for a random variable \(X\) indicates its distribution. This convergence can be shown pointwise in the CDF.<br><br>It's very important to note that the CLT does not actually require the samples to all be drawn from the same distribution! Under mild conditions on the random variables, it holds for any set of independent random variables. This is know as the Lyapunov CLT, and is why we see normal distributions so often in the real world.&nbsp;</center></td><td width="33.333333333333336%"><center><div class="front">
+The Coupon Collector Problem and Solution
+</div>
+<div class="front">
+<hr id=answer>
+</div>
+In the coupon collector problem, there are \(n\) items. In each sample, we collect one of the items uniformly at random. The question is: in expectation, how many samples before we collect at least one of all the items?<br><br>We can model \(X\), the number of samples needed, as a sum of geometric variables \(X_1,\dots,X_n\) with diminishing success probability. \(X_i\) denotes the number of samples needed to obtain the \(i\)th unique item, after having already obtained the \(i-1\)th unique item (where \(X_1=1\), deterministically). Since there are \(\frac{n-i+1}{n}\) items remaining, this is a geometric random variable with expectation \(\frac{n}{n-i+1}\).&nbsp;<br><br>So, \(\mathbb{E}[X] = \mathbb{E}[\sum_{i=1}^n X_i] = \sum_{i=1}^n \mathbb{E}[X_i]\). Then plugging in our formula, this is \(\sum_{i=1}^n \frac{n}{n-i+1} = n \cdot \sum_{i=1}^n \frac{1}{n-i+1} = nH_n\).&nbsp;<br>Therefore the expected number of samples is exactly \(n\) times the \(n\)th Harmonic number.</center></td></tr></table></body></html>
