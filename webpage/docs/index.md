@@ -1,4 +1,4 @@
-# CAS CS 237 - Probability in Computing - Spring 2026
+# CAS CS 630 - Graduate Algorithms - Fall 2026
 
 ---
 
@@ -8,35 +8,22 @@
     <tr>
         <td class="role">Instructors</td>
         <td>
-            <a href="https://nathan-klein.github.io/">Prof. Nathan Klein</a><br>
+            <a href="https://cs-people.bu.edu/edori/">Prof. Dora Erdös</a><br>
             <a href="https://cs-people.bu.edu/januario/">Prof. Tiago Januario</a>
         </td>
     </tr>
 
     <tr>
-        <td class="role">Teaching Fellows</td>
+        <td class="role">Teaching Fellow</td>
         <td>
-            <a href="https://cs-people.bu.edu/taduy/">Ta Duy Nguyen</a><br>
+            <a href="https://pjalalifr.github.io">Pooria Jalali</a><br>
         </td>
     </tr>
 
     <tr>
-        <td class="role">Teaching Assistant</td>
+        <td class="role">Grader</td>
         <td>
-            <a href="https://www.linkedin.com/in/steve-choi-75b9a1273/">Steve Choi</a><br>
-            <a href="https://www.linkedin.com/in/daniel-matuzka-3a1185295/">Daniel Matuzka</a><br>
-        </td>
-    </tr>
-
-    <tr>
-        <td class="role">Course Assistants</td>
-        <td>
-            
-            <!-- <a href="https://www.linkedin.com/in/letitia-caspersen">Letitia Caspersen</a><br> -->
-            
-            Vi Tjiong<br>
-            <a href="https://www.linkedin.com/in/syuhan/">Sarah Yuhan</a><br>
-            <a href="https://www.linkedin.com/in/changyoon-oh-903b42352">Yoon Oh</a>
+            <a href="https://www.linkedin.com/in/jerinjoseph121/">Jerin Joseph</a><br>
         </td>
     </tr>
 </table>
@@ -69,25 +56,35 @@
 
 
 
-*   Check our [Google Calendar](https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&mode=WEEK&src=Y182Y2I2M2Q3M2Y0NzQxMTU1Yzc4ZTI0MWU3OGI3MWIzZDc2NDA3ZTNhMGZlNjdlODlkOTIzMjVlMjNkMjFlMWY3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%237986cb&color=%230b8043) for our Office hours.
+*   Check our [Google Calendar](https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&mode=WEEK&src=Y180MTRmM2U0Y2JiODU3N2UxYjM0NmZmMDY4YzBkNzY5MTZiOWYxZWE0ZDZkZDIzNmZiYTU3MTk2MjI5MTRjY2M4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%233f51b5) for our Office hours.
 
 <center>
-<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&mode=WEEK&src=Y182Y2I2M2Q3M2Y0NzQxMTU1Yzc4ZTI0MWU3OGI3MWIzZDc2NDA3ZTNhMGZlNjdlODlkOTIzMjVlMjNkMjFlMWY3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%237986cb&color=%230b8043" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&mode=WEEK&src=Y180MTRmM2U0Y2JiODU3N2UxYjM0NmZmMDY4YzBkNzY5MTZiOWYxZWE0ZDZkZDIzNmZiYTU3MTk2MjI5MTRjY2M4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%233f51b5" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 </center>
 
 ---
 ## Prerequisites
 
-*   [CS 131 - Combinatoric Structures](https://www.bu.edu/academics/cas/courses/cas-cs-131/)
-*   [MA 123 - Calculus I](https://www.bu.edu/academics/cas/courses/cas-ma-123/)
-*   [CS 111 - Introduction to Computer Science I](https://www.bu.edu/academics/cas/courses/cas-cs-111/)
+This course is designed for Computer Science graduate students aiming to satisfy core theoretical requirements or build a foundation for advanced research. It is also open to advanced undergraduates (typically juniors or seniors) who have excelled in introductory algorithms (such as CAS CS 330) and possess the mathematical maturity required for graduate-level theory.
 
-We assume good working knowledge of elementary set theory and counting, elementary calculus (i.e., integration and differentiation), and programming in Python.
+* **Undergraduate prerequisite**
+    * CS330 Introduction to Analysis of Algorithms
+
+* **Graduate prerequisite**
+    * An algorithms course at the level of CS330. If you’re not sure whether you have the background, you must talk to the instructor.
+    * Topics that you should be familiar with from your previous studies:
+        * Proof techniques (e.g. direct proof, proof by contradiction, induction)
+        * Data structures (e.g. lists, queues, heaps, hash tables, trees, graph adjacency list)
+        * Asymptotic analysis of running time (i.e. big-Oh)
+        * Algorithm design paradigms, such as greedy, divide and conquer, dynamic programming, various graph algorithms
 
 ---
 ## Syllabus
 
-Introduction to basic probabilistic concepts and methods used in computer science. Develops an understanding of the crucial role played by randomness in computing, both as a powerful tool and as a challenge to confront and analyze. Emphasis on rigorous reasoning, analysis, and algorithmic thinking. This course fulfills a single unit in each of the following BU Hub areas: Quantitative Reasoning II, Critical Thinking.
+This course examines advanced algorithmic topics and methods for CS graduate students, including matrix decomposition techniques and applications, linear programming, fundamental discrete and continuous optimization methods, probabilistic algorithms, NP-hard problems and approximation techniques, and algorithms for very large data sets.
+
+* **Course Objectives**
+    * By the conclusion of this course, students will be able to identify and prove when a computational problem is NP-hard, and design effective approximation algorithms or local search heuristics with provable performance guarantees, design and analyze probabilistic (randomized) algorithms to achieve better average-case efficiency, lower space complexity, or simpler implementations than traditional deterministic alternatives.
 
 ---
 ## Course structure
