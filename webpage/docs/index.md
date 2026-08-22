@@ -1,4 +1,4 @@
-# CAS CS 630 - Graduate Algorithms - Fall 2026
+# CAS CS 237 - Probability in Computing - Spring 2026
 
 ---
 
@@ -8,22 +8,35 @@
     <tr>
         <td class="role">Instructors</td>
         <td>
-            <a href="https://cs-people.bu.edu/edori/">Prof. Dora Erdös</a><br>
+            <a href="https://nathan-klein.github.io/">Prof. Nathan Klein</a><br>
             <a href="https://cs-people.bu.edu/januario/">Prof. Tiago Januario</a>
         </td>
     </tr>
 
     <tr>
-        <td class="role">Teaching Fellow</td>
+        <td class="role">Teaching Fellows</td>
         <td>
-            <a href="https://pjalalifr.github.io">Pooria Jalali</a><br>
+            <a href="https://cs-people.bu.edu/taduy/">Ta Duy Nguyen</a><br>
         </td>
     </tr>
 
     <tr>
-        <td class="role">Grader</td>
+        <td class="role">Teaching Assistant</td>
         <td>
-            <a href="https://www.linkedin.com/in/jerinjoseph121/">Jerin Joseph</a><br>
+            <a href="https://www.linkedin.com/in/steve-choi-75b9a1273/">Steve Choi</a><br>
+            <a href="https://www.linkedin.com/in/daniel-matuzka-3a1185295/">Daniel Matuzka</a><br>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="role">Course Assistants</td>
+        <td>
+            
+            <!-- <a href="https://www.linkedin.com/in/letitia-caspersen">Letitia Caspersen</a><br> -->
+            
+            Vi Tjiong<br>
+            <a href="https://www.linkedin.com/in/syuhan/">Sarah Yuhan</a><br>
+            <a href="https://www.linkedin.com/in/changyoon-oh-903b42352">Yoon Oh</a>
         </td>
     </tr>
 </table>
@@ -56,35 +69,25 @@
 
 
 
-*   Check our [Google Calendar](https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&mode=WEEK&src=Y180MTRmM2U0Y2JiODU3N2UxYjM0NmZmMDY4YzBkNzY5MTZiOWYxZWE0ZDZkZDIzNmZiYTU3MTk2MjI5MTRjY2M4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%233f51b5) for our Office hours.
+*   Check our [Google Calendar](https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&mode=WEEK&src=Y182Y2I2M2Q3M2Y0NzQxMTU1Yzc4ZTI0MWU3OGI3MWIzZDc2NDA3ZTNhMGZlNjdlODlkOTIzMjVlMjNkMjFlMWY3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%237986cb&color=%230b8043) for our Office hours.
 
 <center>
-<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&mode=WEEK&src=Y180MTRmM2U0Y2JiODU3N2UxYjM0NmZmMDY4YzBkNzY5MTZiOWYxZWE0ZDZkZDIzNmZiYTU3MTk2MjI5MTRjY2M4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%233f51b5" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&mode=WEEK&src=Y182Y2I2M2Q3M2Y0NzQxMTU1Yzc4ZTI0MWU3OGI3MWIzZDc2NDA3ZTNhMGZlNjdlODlkOTIzMjVlMjNkMjFlMWY3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%237986cb&color=%230b8043" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 </center>
 
 ---
 ## Prerequisites
 
-This course is designed for Computer Science graduate students aiming to satisfy core theoretical requirements or build a foundation for advanced research. It is also open to advanced undergraduates (typically juniors or seniors) who have excelled in introductory algorithms (such as CAS CS 330) and possess the mathematical maturity required for graduate-level theory.
+*   [CS 131 - Combinatoric Structures](https://www.bu.edu/academics/cas/courses/cas-cs-131/)
+*   [MA 123 - Calculus I](https://www.bu.edu/academics/cas/courses/cas-ma-123/)
+*   [CS 111 - Introduction to Computer Science I](https://www.bu.edu/academics/cas/courses/cas-cs-111/)
 
-* **Undergraduate prerequisite**
-    * CS330 Introduction to Analysis of Algorithms
-
-* **Graduate prerequisite**
-    * An algorithms course at the level of CS330. If you’re not sure whether you have the background, you must talk to the instructor.
-    * Topics that you should be familiar with from your previous studies:
-        * Proof techniques (e.g. direct proof, proof by contradiction, induction)
-        * Data structures (e.g. lists, queues, heaps, hash tables, trees, graph adjacency list)
-        * Asymptotic analysis of running time (i.e. big-Oh)
-        * Algorithm design paradigms, such as greedy, divide and conquer, dynamic programming, various graph algorithms
+We assume good working knowledge of elementary set theory and counting, elementary calculus (i.e., integration and differentiation), and programming in Python.
 
 ---
 ## Syllabus
 
-This course examines advanced algorithmic topics and methods for CS graduate students, including matrix decomposition techniques and applications, linear programming, fundamental discrete and continuous optimization methods, probabilistic algorithms, NP-hard problems and approximation techniques, and algorithms for very large data sets.
-
-* **Course Objectives**
-    * By the conclusion of this course, students will be able to identify and prove when a computational problem is NP-hard, and design effective approximation algorithms or local search heuristics with provable performance guarantees, design and analyze probabilistic (randomized) algorithms to achieve better average-case efficiency, lower space complexity, or simpler implementations than traditional deterministic alternatives.
+Introduction to basic probabilistic concepts and methods used in computer science. Develops an understanding of the crucial role played by randomness in computing, both as a powerful tool and as a challenge to confront and analyze. Emphasis on rigorous reasoning, analysis, and algorithmic thinking. This course fulfills a single unit in each of the following BU Hub areas: Quantitative Reasoning II, Critical Thinking.
 
 ---
 ## Course structure
@@ -344,8 +347,6 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td> <strong>Lec 13</strong><br> Thursday<br> Mar 19 </td>
             <td>
             Linearity of Expectation<br>
-            Infinite Sums<br>
-            Law of the unconscious statistician<br> 
                 <!-- <a href="./slides/cs237L13-annotated.pdf">[Slides with notes]</a> -->
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.4">LLM 19.4</a>, <a
@@ -357,27 +358,27 @@ This schedule is subject, and likely, to change as we progress through the semes
         <tr>
             <td> <strong>Lec 14</strong><br> Tuesday<br> Mar 24 </td>
             <td>
-		Expectation of Products<br>
-                Conditional expectation<br> 
-                <!-- <a href="./slides/cs237L15-annotated.pdf">[Slides with notes]</a> <br> -->
+                Linearity of expectation<br>
+                Law of the unconscious statistician<br> 
+                <!-- <a href="./slides/cs237L14-annotated.pdf">[Slides with notes]</a> <br> -->
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
-                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.4">LLM 19.4.1</a>, <a
-                        href="https://www.probabilitycourse.com/chapter3/3_2_3_functions_random_var.php">P 3.2.3</a>, <a
-                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.4">LLM 19.4.6</a> </div>
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.5">LLM 19.5</a>, <a
+                        href="https://www.probabilitycourse.com/chapter6/6_1_2_sums_random_variables.php">P 6.1.2</a>
+                </div>
             </td>
             <td>NK</td>
         </tr>
         <tr>
             <td> <strong>Lec 15</strong><br> Thursday<br> Mar 26 </td>
             <td>
-		Law of Total Expectation<br>
-                Variance<br> 
-                Standard deviation<br> 
+                Conditional expectation<br> 
+                Linearity of conditional expectation <br>
+                Law of total expectation<br> 
+                <!-- <a href="./slides/cs237L15-annotated.pdf">[Slides with notes]</a> <br> -->
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
-                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.3">LLM 20.3</a>, <a
-                        href="https://www.probabilitycourse.com/chapter3/3_2_4_variance.php">P 3.2.4</a> </div>
-                <div class="agenda-item"> <span class="meta-label">Watch:</span> <a
-                        href="https://www.probabilitycourse.com/videos/chapter3/video3_9.php">Video</a> </div>
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.4">LLM 19.4.1</a>, <a
+                        href="https://www.probabilitycourse.com/chapter3/3_2_3_functions_random_var.php">P 3.2.3</a>, <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.4">LLM 19.4.6</a> </div>
                 <div class="agenda-item"> <span class="meta-label">Do:</span> hw08 out </div>
             </td>
             <td>NK</td>
@@ -385,7 +386,20 @@ This schedule is subject, and likely, to change as we progress through the semes
         <tr>
             <td> <strong>Lec 16</strong><br> Tuesday<br> Mar 31 </td>
             <td>
-	    Properties of Variance<br>
+                Variance<br> 
+                Standard deviation<br> 
+                Variance properties<br>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.3">LLM 20.3</a>, <a
+                        href="https://www.probabilitycourse.com/chapter3/3_2_4_variance.php">P 3.2.4</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Watch:</span> <a
+                        href="https://www.probabilitycourse.com/videos/chapter3/video3_9.php">Video</a> </div>
+            </td>
+            <td>TJ</td>
+        </tr>
+        <tr>
+            <td style="background-color: LightYellow"> <strong>Lec 17</strong><br> Thursday<br> Apr 2 </td>
+            <td style="background-color: LightYellow">
             Discrete distributions: <br>
             - Bernoulli, <br>
             - Uniform, <br>
@@ -395,35 +409,36 @@ This schedule is subject, and likely, to change as we progress through the semes
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.3">LLM 19.3.2</a>, <a
                         href="https://www.probabilitycourse.com/chapter3/3_1_5_special_discrete_distr.php">P 3.1.5</a>
                 </div>
-            </td>
-            <td>TJ</td>
-        </tr>
-        <tr>
-            <td style="background-color: LightYellow"> <strong>Lec 17</strong><br> Thursday<br> Apr 2 </td>
-            <td style="background-color: LightYellow">
-                Discrete distributions: <br>
-                - Geometric and its properties <br>
-                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
-                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.5">LLM 19.5.4</a> </div>
                 <div class="agenda-item"> <span class="meta-label">Do:</span> hw09 out </div>
             </td>
             <td style="background-color: LightYellow">TJ</td>
         </tr>
         <tr>
-            <td> <strong>Lec 18: <u>Quiz 3</u></strong><br> Tuesday<br> Apr 7 </td>
+            <td> <strong>Lec 18</strong><br> Tuesday<br> Apr 7 </td>
             <td>
-		Coupon Collector<br>
+                Discrete distributions: <br>
+                - Geometric and its properties <br>
+                - Coupon collector's problem<br> 
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.19.5">LLM 19.5.4</a> </div>
+            </td>
+            <td>NK</td>
+        </tr>
+        <tr>
+            <td> <strong>Lec 19: <u>Quiz 3</u></strong><br> Thursday<br> Apr 9 </td>
+            <td>
                 Reservoir sampling<br> 
                 Negative Binomial <br>
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
                         href="https://en.wikipedia.org/wiki/Reservoir_sampling">Wikipedia</a> </div>
                 <div class="agenda-item"> <span class="meta-label">Watch:</span> <a
                         href="https://www.youtube.com/watch?v=BstloCx8KDk">Stand-up Maths</a> </div>
+                <div class="agenda-item"> <span class="meta-label">Do:</span> hw10 out </div>
             </td>
             <td>NK</td>
         </tr>
         <tr>
-            <td> <strong>Lec 19</strong><br> Thursday<br> Apr 9 </td>
+            <td> <strong>Lec 20</strong><br> Tuesday<br> Apr 14 </td>
             <td>
                 Markov inequality<br> 
                 Chebyshev inequality<br>
@@ -432,28 +447,17 @@ This schedule is subject, and likely, to change as we progress through the semes
                         href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.2">LLM 20.2</a>, <a
                         href="https://www.probabilitycourse.com/chapter6/6_2_2_markov_chebyshev_inequalities.php">P
                         6.2.2</a> </div>
-                <div class="agenda-item"> <span class="meta-label">Do:</span> hw10 out </div>
-            </td>
-            <td>NK</td>
-        </tr>
-        <tr>
-            <td> <strong>Lec 20</strong><br> Tuesday<br> Apr 14 </td>
-            <td>
-                Applications of Markov and Chebyshev's inequalities<br> 
-                Continuous Uniform Distribution <br>
-                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
-                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.1">LLM 20.1.1</a>, <a
-                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.2">LLM 20.2.1</a> </div>
             </td>
             <td>NK</td>
         </tr>
         <tr>
             <td> <strong>Lec 21</strong><br> Thursday<br> Apr 16 </td>
             <td>
-                Normal distribution <br>
+                Applications of Markov and Chebyshev's inequalities<br> 
+                Continuous Uniform Distribution <br>
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
-                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.2">LLM 20.2.2</a>, <a
-                        href="https://www.probabilitycourse.com/chapter4/4_2_3_normal.php">P 4.2.3</a> </div>
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.1">LLM 20.1.1</a>, <a
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.2">LLM 20.2.1</a> </div>
                 <div class="agenda-item"> <span class="meta-label">Do:</span> hw11 out </div>
             </td>
             <td>NK</td>
@@ -461,20 +465,19 @@ This schedule is subject, and likely, to change as we progress through the semes
         <tr>
             <td> <strong>Lec 22</strong><br> Tuesday<br> Apr 21 </td>
             <td>
-                Exponential distribution <br>
+                Normal distribution <br>
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
-                        href="https://www.probabilitycourse.com/chapter4/4_2_2_exponential.php">P 4.2.2</a>, <a
-                        href="https://www.probabilitycourse.com/chapter11/11_1_2_basic_concepts_of_the_poisson_process.php">P
-                        11.1.2</a> </div>
+                        href="https://cs-people.bu.edu/aene/cs237fa21/mcs.pdf#section.20.2">LLM 20.2.2</a>, <a
+                        href="https://www.probabilitycourse.com/chapter4/4_2_3_normal.php">P 4.2.3</a> </div>
             </td>
             <td>NK</td>
         </tr>
         <tr>
             <td> <strong>Lec 23</strong><br> Thursday<br> Apr 23 </td>
             <td>
-                Poisson Process <br>
-                Poisson Distribution <br>
+                Exponential distribution <br>
                 <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://www.probabilitycourse.com/chapter4/4_2_2_exponential.php">P 4.2.2</a>, <a
                         href="https://www.probabilitycourse.com/chapter11/11_1_2_basic_concepts_of_the_poisson_process.php">P
                         11.1.2</a> </div>
                 <div class="agenda-item"> <span class="meta-label">Do:</span> hw12 out<br> Final Practice Problems out
@@ -482,19 +485,23 @@ This schedule is subject, and likely, to change as we progress through the semes
             <td>NK</td>
         </tr>
         <tr>
-            <td> <strong>Lec 24: <u>Quiz 4</u></strong><br> Tuesday<br> Apr 28 </td>
+            <td> <strong>Lec 24</strong><br> Tuesday<br> Apr 28 </td>
             <td>
-                Central Limit Theorem <br>
-                Law of Large Numbers <br>
-                <div class="agenda-item"> <span class="meta-label">Read:</span> CLRS 8.4 </div>
+                Poisson Process <br>
+                Poisson Distribution <br>
+                <div class="agenda-item"> <span class="meta-label">Read:</span> <a
+                        href="https://www.probabilitycourse.com/chapter11/11_1_2_basic_concepts_of_the_poisson_process.php">P
+                        11.1.2</a> </div>
             </td>
             <td>NK</td>
         </tr>
         <tr>
-            <td style="background-color: LightYellow"> <strong>Lec 25</strong><br> Thursday<br> Apr 30 </td>
+            <td style="background-color: LightYellow"> <strong>Lec 25: <u>Quiz 4</u></strong><br> Thursday<br> Apr 30 </td>
             <td style="background-color: LightYellow">
-		Applied Probability<br>
+                Central Limit Theorem <br>
+                Law of Large Numbers <br>
                 <a href="https://my-bu.bluera.com/">Course evaluation</a> 
+                <div class="agenda-item"> <span class="meta-label">Read:</span> CLRS 8.4 </div>
                 </div>
             </td>
             <td style="background-color: LightYellow">NK</td>
